@@ -31,7 +31,8 @@ By the end of the course, you will feel comfortable using Python and modern AI-a
 | 05 | Stream Data |
 | 06 | Precipitation Data |
 
-More modules and lessons will be added to this course over time!
+#### More modules and lessons will be added to this course over time!
+
 ---
 
 ## Repository Structure
@@ -78,9 +79,7 @@ This is an open-source course, meaning everyone is free to access, use, modify, 
 Mohsen Tahmasebi Nasab, PhD  
 [hydromohsen.com](https://hydromohsen.com)
 
-If you enjoyed this course and found it useful, consider keeping me caffeinated so I can create more content like this ☕
-
-You can support the course here:
+If you enjoyed this course and found it useful, consider keeping me caffeinated ☕ so I can create more content like this. You can support the course here:
 
 <a href="https://buymeacoffee.com/HydroMohsen" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="180">
