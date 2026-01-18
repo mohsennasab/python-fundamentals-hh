@@ -142,7 +142,7 @@ The video below gives an introduction on how to get started with this course:
   <tr>
     <td align="center">
       <strong>Mohsen Tahmasebi Nasab, PhD</strong><br>
-      <em>Hydrologist & Water Resources Engineer</em><br><br>
+      <em>Water Resources Engineer</em><br><br>
       🌐 <a href="https://hydromohsen.com">hydromohsen.com</a><br>
       📺 <a href="https://www.youtube.com/@HydroMohsen">YouTube Channel</a>
     </td>
