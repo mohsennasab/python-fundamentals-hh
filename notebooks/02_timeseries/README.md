@@ -1,4 +1,4 @@
-# Module 2: Time Series Analysis for H&H
+# Module 2: Time Series Analysis
 
 ## Overview
 
@@ -112,9 +112,8 @@ The lesson includes 5 exercises ranging from basic to challenging:
 ## Next Steps
 
 After completing this module, you'll be ready for:
-- **Module 3**: Frequency Analysis (fitting distributions, return periods)
-- **Module 4**: Working with precipitation data and NOAA Atlas 14
-- **Module 5**: Multi-site analysis and data comparison
+- **Module 3**: Vector Data Analysis
+
 
 ## Resources
 
