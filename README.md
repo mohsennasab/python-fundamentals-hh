@@ -37,11 +37,11 @@ Instead of abstract coding exercises, the course focuses on real tasks engineers
 The emphasis is on writing clear, readable code and using Python to replace spreadsheets, automate repetitive tasks, and build reproducible analyses.
 
 **AI-Enhanced Learning**  
-The course recognizes that AI and large language models have fundamentally changed how engineers write, read, and understand code. Rather than ignoring these tools, the course shows how to use them responsibly and effectively to accelerate learning, explore unfamiliar libraries, debug workflows, and improve code quality — while still maintaining engineering judgment and accountability.
+The course recognizes that AI and large language models have fundamentally changed how engineers write, read, and understand code. Rather than ignoring these tools, the course shows how to use them responsibly and effectively to accelerate learning, explore unfamiliar libraries, debug workflows, and improve code quality, while still maintaining engineering judgment and accountability.
 
 ### What You'll Learn
 
-By the end of the course, you will feel comfortable using Python and modern AI-assisted workflows as everyday tools to support hydrologic and hydraulic modeling, data analysis, and decision-making in real-world engineering practice.
+By the end of the course, you will feel comfortable using Python and modern LLM-assisted workflows as everyday tools to support hydrologic and hydraulic modeling, data analysis, and decision-making in real-world engineering practice.
 
 ---
 
