@@ -18,17 +18,17 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python Version">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+  <img src="https://img.shields.io/badge/License-Custom_Open_Source-green.svg" alt="License">
   <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
 </p>
 
 ---
 
-## 📖 About
+## About
 
 This course teaches Python programming fundamentals through **real hydrologic and hydraulic engineering workflows**. It is designed for water resources professionals who already understand H&H concepts but want practical, usable Python skills without becoming software engineers.
 
-### 🎯 What Makes This Course Different
+### What Makes This Course Different
 
 **Real-World Focus**  
 Instead of abstract coding exercises, the course focuses on real tasks engineers deal with every day: working with time series, spatial vector and raster data, stream and gage data, and precipitation datasets.
@@ -37,81 +37,115 @@ Instead of abstract coding exercises, the course focuses on real tasks engineers
 The emphasis is on writing clear, readable code and using Python to replace spreadsheets, automate repetitive tasks, and build reproducible analyses.
 
 **AI-Enhanced Learning**  
-The course recognizes that AI and large language models have fundamentally changed how engineers write, read, and understand code. Rather than ignoring these tools, the course shows how to use them responsibly and effectively to accelerate learning, explore unfamiliar libraries, debug workflows, and improve code quality—while still maintaining engineering judgment and accountability.
+The course recognizes that AI and large language models have fundamentally changed how engineers write, read, and understand code. Rather than ignoring these tools, the course shows how to use them responsibly and effectively to accelerate learning, explore unfamiliar libraries, debug workflows, and improve code quality — while still maintaining engineering judgment and accountability.
 
-### 🎓 What You'll Learn
+### What You'll Learn
 
 By the end of the course, you will feel comfortable using Python and modern AI-assisted workflows as everyday tools to support hydrologic and hydraulic modeling, data analysis, and decision-making in real-world engineering practice.
 
 ---
 
-## 📚 Course Modules
+## Course Modules
 
 <table>
   <thead>
     <tr>
-      <th width="100">Module</th>
+      <th width="80">Module</th>
       <th>Topic</th>
-      <th width="120">Status</th>
+      <th width="100">Level</th>
+      <th width="100">Status</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td align="center"><strong>01</strong></td>
-      <td>Setup and Fundamentals</td>
+      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/01_setup_and_fundamentals">Setup and Fundamentals</a></td>
+      <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
     </tr>
     <tr>
       <td align="center"><strong>02</strong></td>
-      <td>Time Series</td>
+      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/02_timeseries">Time Series</a></td>
+      <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
     </tr>
     <tr>
       <td align="center"><strong>03</strong></td>
-      <td>Vector Data</td>
+      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/03_vector-data">Vector Data</a></td>
+      <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
     </tr>
     <tr>
       <td align="center"><strong>04</strong></td>
-      <td>Raster Data</td>
+      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/04_raster-data">Raster Data</a></td>
+      <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
     </tr>
     <tr>
       <td align="center"><strong>05</strong></td>
-      <td>Stream Data</td>
+      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/05_stream-data">Stream Data</a></td>
+      <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
     </tr>
     <tr>
       <td align="center"><strong>06</strong></td>
-      <td>Precipitation Data</td>
+      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/06_precip-data">Precipitation Data</a></td>
+      <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
     </tr>
   </tbody>
 </table>
 
-> 📌 **Note:** More modules and lessons will be added to this course over time!
+**Difficulty Levels:**
+
+| Level | Description |
+|-------|-------------|
+| **Beginner** | No prior Python experience needed. Concepts are explained from scratch with H&H analogies. |
+| **Intermediate** | Assumes comfort with Python basics (variables, loops, functions, pandas). Focuses on applied workflows. |
+| **Advanced** | Assumes working knowledge of Python and H&H modeling tools. Covers automation, optimization, or integration with professional software. |
+
+> More modules and lessons will be added to this course over time!
 
 ---
 
-## 📁 Repository Structure
+## What Participants Are Saying
+
+> *"As a complete beginner to Python/Google Colab, the course was approachable and could be completed successfully."*
+
+> *"The course is very practical and immediately applicable. It enabled pulling data from PDFs into Excel with ease, and it highlights how much more can be done with Python in this field."*
+
+> *"This is an excellent course for beginners, particularly by highlighting where and how AI can assist."*
+
+> *"The progression through each part, lesson, and module is very clear. The use of structured analogies and AI assistant subheadings is effective."*
+
+> *"This is a strong, discipline-focused introduction to scripting and automation. It also demonstrates practical examples for each data type commonly used."*
+
+> *"Step-by-step examples followed by small exercises are very helpful. The streamflow retrieval exercise is especially useful."*
+
+Participants have also suggested directions for future modules, including GIS software integration (running Python tools inside QGIS), working with HDF5 data formats, and building reusable pipeline templates for probabilistic and simulation-based modeling. These ideas are shaping the roadmap for upcoming content.
+
+---
+
+## Repository Structure
 
 ```
-📦 python-hh-course/
-├── 📂 figures/              # Course images and diagrams
-├── 📂 notebooks/            # Interactive Colab notebooks
-│   ├── 📂 01_setup_and_fundamentals/
-│   ├── 📂 02_timeseries/
-│   ├── 📂 03_vector-data/
-│   ├── 📂 04_raster-data/
-│   ├── 📂 05_stream-data/
-│   └── 📂 06_precip-data/
-├── 📄 .gitignore
-└── 📄 README.md
+python-fundamentals-hh/
+├── figures/              # Course images and diagrams
+├── notebooks/            # Interactive Colab notebooks
+│   ├── 01_setup_and_fundamentals/
+│   ├── 02_timeseries/
+│   ├── 03_vector-data/
+│   ├── 04_raster-data/
+│   ├── 05_stream-data/
+│   └── 06_precip-data/
+├── presentation.html     # Course introduction presentation
+├── .gitignore
+└── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Video Tutorial
 
@@ -130,13 +164,13 @@ The video below gives an introduction on how to get started with this course:
 
 ### Quick Start Steps
 
-1. **📥 Download** this repository or work online
-2. **⚙️ Set up** your Python environment (instructions in Module 01)
-3. **📝 Work through** the notebooks in order
+1. **Download** this repository or work online
+2. **Set up** your Python environment (instructions in Module 01)
+3. **Work through** the notebooks in order
 
 ---
 
-## 👨‍🏫 Author
+## Author
 
 <table>
   <tr>
@@ -149,7 +183,7 @@ The video below gives an introduction on how to get started with this course:
   </tr>
 </table>
 
-### ☕ Support This Course
+### Support This Course
 
 If you enjoyed this course and found it useful, consider keeping me caffeinated so I can create more content like this!
 
@@ -161,92 +195,110 @@ If you enjoyed this course and found it useful, consider keeping me caffeinated 
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Contributions are welcome and encouraged! We believe in the power of community-driven learning.
+Contributions are welcome and encouraged! This course grows through community input from practicing engineers and researchers.
 
-If you would like to add a lesson, improve an existing notebook, or fix issues, please use the structure and clarity demonstrated in the contribution guidelines below.
+### How to Contribute
 
-### 📋 Contribution Guidelines
+1. **Open an issue** to propose your lesson idea before writing code
+2. **Fork** the repository and create your lesson in a feature branch
+3. **Submit a pull request** with your completed notebook
+4. After review and acceptance, your module will be published **with your name as the contributor**
 
-Each contributed lesson notebook should include the following sections at the top:
+### Module Requirements
 
-<table>
-  <tr>
-    <td><strong>1️⃣ Lesson Level</strong></td>
-    <td>Clearly state the level of the lesson (e.g., Beginner, Intermediate, Advanced)</td>
-  </tr>
-  <tr>
-    <td><strong>2️⃣ Purpose</strong></td>
-    <td>A short paragraph explaining why this lesson exists and where it fits in the course</td>
-  </tr>
-  <tr>
-    <td><strong>3️⃣ Learning Objectives</strong></td>
-    <td>A concise bullet list describing what learners should be able to do by the end of the lesson</td>
-  </tr>
-  <tr>
-    <td><strong>4️⃣ Prerequisites</strong></td>
-    <td>Reference prior modules or skills assumed (if any)</td>
-  </tr>
-  <tr>
-    <td><strong>5️⃣ Clear Examples</strong></td>
-    <td>Lessons should focus on practical H&H-relevant workflows, not abstract programming exercises</td>
-  </tr>
-</table>
+Every contributed module **must** meet the following criteria to be accepted:
 
-### ✨ General Expectations
+#### Structure
 
-- ✅ Keep code readable and well commented
-- ✅ Prefer clarity over cleverness
-- ✅ Use real-world hydrology and hydraulics examples when possible
-- ✅ Use AI prompts and demonstrate how it was used or should be used
-- ✅ Assume learners are engineers, not software developers
+Each notebook must include the following sections at the top:
 
-> 💡 **Tip:** If you are unsure whether a contribution is a good fit, feel free to open an issue or start a discussion first.
+| Section | What to Include |
+|---------|----------------|
+| **Lesson Level** | One of: Beginner, Intermediate, or Advanced (see definitions above) |
+| **Purpose** | A short paragraph explaining why this lesson exists and where it fits in the course |
+| **Learning Objectives** | A concise bullet list of what learners should be able to do by the end |
+| **Prerequisites** | Reference prior modules or skills assumed (if any) |
+| **AI Prompts** | Include at least 2-3 practical AI prompt examples that help learners understand, debug, or extend the code |
+
+#### Content Standards
+
+- **Use real H&H examples.** Every code example should relate to hydrology, hydraulics, or water resources engineering. No generic programming exercises.
+- **Prefer clarity over cleverness.** Write code that a first-time Python user can follow. If a one-liner is hard to read, break it into multiple lines with comments.
+- **Include sample data.** Provide any data files needed to run the notebook. Place them in a `data/` subfolder within your module directory.
+- **Test in Google Colab.** All notebooks must run successfully in a fresh Colab session with no local dependencies beyond `pip install`.
+- **Show AI-assisted workflows.** Demonstrate how learners can use AI tools (ChatGPT, Claude, Gemini, Copilot) to understand and extend the code. Include practical prompts they can copy and use.
+- **Keep the tone friendly and human.** Write as if you're explaining to a colleague, not writing a textbook. Avoid overly formal language and excessive emoji.
+
+#### What Makes a Good Module Proposal
+
+Strong proposals typically:
+- Address a workflow that H&H engineers do regularly (e.g., frequency analysis, rating curve development, flood mapping)
+- Build on skills from existing modules without duplicating them
+- Include a real dataset that learners can work with
+- Have a clear "before and after" — show what the manual process looks like and how Python improves it
+
+#### Review Process
+
+1. A maintainer will review your pull request for technical correctness, clarity, and adherence to the standards above
+2. You may receive feedback requesting changes — this is normal and collaborative
+3. Once approved, your module will be merged and your name will appear as a contributor
+4. All accepted contributions are published under the course license (see below)
 
 ---
 
-## 📄 License
+## License
 
-This project is licensed under the **MIT License**.
-
-This is an open-source course, meaning everyone is free to access, use, modify, and share the materials in this repository in accordance with the MIT License.
+This project is released under a **custom open-source license** for individual educational use.
 
 <details>
-<summary>📜 View License Details</summary>
+<summary>View Full License</summary>
 
 ```
-MIT License
+Open Source License for Individual Use
 
 Copyright (c) 2025 Mohsen Tahmasebi Nasab
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any individual obtaining a
+copy of this software and associated documentation files (the "Course
+Materials"), to use, copy, modify, and share the Course Materials for personal
+learning, education, and non-commercial purposes, subject to the following
+conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. INDIVIDUAL USE: The Course Materials may be freely used by individuals for
+   self-study, personal skill development, and educational purposes.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. ATTRIBUTION: Any redistribution or derivative work must include attribution
+   to the original author and a link to the original repository at
+   https://github.com/mohsennasab/python-fundamentals-hh
+
+3. NON-COMMERCIAL: The Course Materials may not be sold, licensed, or used as
+   part of any paid training program, commercial product, or for-profit service
+   without prior written permission from the copyright holder.
+
+4. CONTRIBUTIONS: By submitting a contribution (pull request) to this
+   repository, you agree that your contribution will be published under these
+   same license terms, with attribution to you as the contributor.
+
+5. SHARE-ALIKE: Any modified versions or derivative works that are distributed
+   must be shared under these same license terms.
+
+THE COURSE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE COURSE MATERIALS OR THE USE OR
+OTHER DEALINGS IN THE COURSE MATERIALS.
 ```
 
 </details>
 
+**In plain English:** You are free to use, study, and share this course for personal and educational purposes. If you redistribute or build on it, give credit and keep it open. For commercial use (paid workshops, corporate training programs, etc.), please reach out for permission first.
+
 ---
 
 <p align="center">
-  <strong>Made with ❤️ for the Water Resources Engineering Community</strong>
-</p>
-
-<p align="center">
-  <sub>⭐ Star this repo if you find it helpful!</sub>
+  <sub>Star this repo if you find it helpful!</sub>
 </p>
