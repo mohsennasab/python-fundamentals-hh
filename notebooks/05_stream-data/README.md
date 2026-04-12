@@ -2,7 +2,7 @@
 
 ## Overview
 
-This module teaches you how to access USGS stream gauge data programmatically — a skill that replaces hours of manual website navigation with a few lines of Python. You'll learn to find gauges near any watershed, download streamflow and stage data, process time series for model input, and export formatted boundary conditions for HEC-RAS and HEC-HMS. The workflow you build here is directly reusable on any future project.
+This module teaches you how to access USGS stream gauge data programmatically — a skill that replaces hours of manual website navigation with a few lines of Python. You'll learn to find gauges near any watershed, download streamflow and stage data, process time series for model input, and export data ready for H&H modeling workflows. The workflow you build here is directly reusable on any future project.
 
 ## Learning Objectives
 
@@ -15,7 +15,7 @@ By the end of this module, you will be able to:
 - Resample data to model-appropriate time steps
 - Fill data gaps using linear interpolation with appropriate limits
 - Generate professional gauge catalogs and data availability summaries
-- Export formatted boundary conditions for HEC-RAS unsteady flow models
+- Export processed data ready for H&H modeling workflows
 - Use AI assistants to troubleshoot API issues and extend workflows
 
 ## Lessons
@@ -32,7 +32,7 @@ By the end of this module, you will be able to:
 - Retrieving discharge and stage time series
 - Data processing: resampling, gap filling, quality control
 - Generating gauge catalogs and metadata files
-- Exporting HEC-RAS boundary condition format
+
 - Complete workflow summary report
 
 ## Prerequisites
@@ -132,7 +132,7 @@ The lesson includes 4 exercises:
 After completing this module, you'll be ready for:
 - **Module 6**: Precipitation frequency analysis with NOAA Atlas 14
 
-With Modules 2-5 complete, you can pull real gauge data, process time series, and generate model-ready boundary conditions — all programmatically.
+With Modules 2-5 complete, you can pull real gauge data, process time series, and generate model-ready exports — all programmatically.
 
 ## Resources
 
