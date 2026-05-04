@@ -248,6 +248,29 @@ Strong proposals typically:
 
 ---
 
+## More H&H Python Tools to Explore
+
+This course covers the fundamentals. The open-source H&H community has built many other Python tools worth knowing as your work grows. Below are actively maintained projects you can explore once you're comfortable with the material in this course.
+
+| Tool | Description |
+|------|-------------|
+| [HyRiver](https://github.com/hyriver/HyRiver) | Unified Python access to USGS, NHD, 3DEP, NLDAS, Daymet, NID, and more |
+| [dataretrieval-python](https://github.com/DOI-USGS/dataretrieval-python) | Official USGS NWIS data retrieval library (used in Module 5) |
+| [pysheds](https://github.com/mdbartos/pysheds) | Watershed delineation, flow accumulation, and stream networks from DEMs |
+| [pyflwdir](https://github.com/Deltares/pyflwdir) | Flow direction, upstream area, and river network analysis from elevation grids |
+| [SPOTPY](https://github.com/thouska/spotpy) | Calibration, sensitivity analysis, and uncertainty estimation for hydrologic models |
+| [hydroeval](https://github.com/ThibHlln/hydroeval) | NSE, KGE, PBIAS, and other model performance metrics in one library |
+| [Pastas](https://github.com/pastas/pastas) | Time series analysis of groundwater levels with stress models |
+| [xclim](https://github.com/Ouranosinc/xclim) | Climate indicators and indices for precipitation, temperature, and droughts |
+| [RAS Commander](https://github.com/gpt-cmdr/ras-commander) | Python automation and orchestration for HEC-RAS models |
+| [xarray](https://github.com/pydata/xarray) | Labeled multidimensional arrays for NetCDF, GRIB, and gridded climate data |
+| [hvplot](https://github.com/holoviz/hvplot) | Interactive hydrograph and spatial plots with one-line syntax over pandas and xarray |
+| [noaa_coops](https://github.com/GClunies/noaa_coops) | NOAA CO-OPS tides, currents, and water level data retrieval |
+
+Have a tool you'd recommend? Open an issue or a pull request and we'll add it to the list.
+
+---
+
 ## License
 
 This project is released under a **custom open-source license** for individual educational use.
