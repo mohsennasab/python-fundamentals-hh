@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="figures/Logo.png" alt="Course Logo" width="300">
+  <img src="figures/Logo_white.png" alt="Course Logo" width="400">
+</p>
+
+<p align="center">
+  <img src="figures/Banner.png" alt="Course Banner" width="750">
 </p>
 
 <h1 align="center">Fundamentals of Python for H&H Modeling and Analysis</h1>
