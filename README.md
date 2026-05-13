@@ -230,7 +230,7 @@ Each notebook must include the following sections at the top:
 
 - **Use real H&H examples.** Every code example should relate to hydrology, hydraulics, or water resources engineering. No generic programming exercises.
 - **Prefer clarity over cleverness.** Write code that a first-time Python user can follow. If a one-liner is hard to read, break it into multiple lines with comments.
-- **Include sample data.** Provide any data files needed to run the notebook. Place them in a `data/` subfolder within your module directory.
+- **Include sample data.** Provide any data files needed to run the notebook. Place them in a `data/` subfolder within your module directory. Make sure your sample data does not include any information you don't want to share publically. 
 - **Test in Google Colab.** All notebooks must run successfully in a fresh Colab session with no local dependencies beyond `pip install`.
 - **Show AI-assisted workflows.** Demonstrate how learners can use AI tools (ChatGPT, Claude, Gemini, Copilot) to understand and extend the code. Include practical prompts they can copy and use.
 - **Keep the tone friendly and human.** Write as if you're explaining to a colleague, not writing a textbook. Avoid overly formal language and excessive emoji.
@@ -246,7 +246,7 @@ Strong proposals typically:
 #### Review Process
 
 1. A maintainer will review your pull request for technical correctness, clarity, and adherence to the standards above
-2. You may receive feedback requesting changes — this is normal and collaborative
+2. You may receive feedback requesting changes. This is normal and collaborative
 3. Once approved, your module will be merged and your name will appear as a contributor
 4. All accepted contributions are published under the course license (see below)
 
