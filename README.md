@@ -116,8 +116,6 @@ By the end of the course, you will feel comfortable using Python and modern LLM-
 
 > *"As a complete beginner to Python/Google Colab, the course was approachable and could be completed successfully."*
 
-> *"The course is very practical and immediately applicable. It enabled pulling data from PDFs into Excel with ease, and it highlights how much more can be done with Python in this field."*
-
 > *"This is an excellent course for beginners, particularly by highlighting where and how AI can assist."*
 
 > *"The progression through each part, lesson, and module is very clear. The use of structured analogies and AI assistant subheadings is effective."*
