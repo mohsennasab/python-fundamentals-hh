@@ -119,12 +119,13 @@ Use them, modify them, and write your own. The USGS API and the `dataretrieval` 
 
 ## Practice Exercises
 
-The notebook includes four exercises that map directly onto the new content:
+The notebook includes five exercises that map directly onto the new content:
 
 1. **Compare three gauges in the AOI** — retrieve daily discharge for the top three gauges in `sites_in_buffer`, plot them together, and print a comparison table.
 2. **Apply the gap-fill demo to stage data** — repeat the year-to-15-day-to-artificial-gap workflow for stage (parameter 00065) instead of discharge.
 3. **Use a different AOI** — build your own polygon AOI in code, then re-run gauge discovery and ranking on the new area.
 4. **Write a `gauge_report(site_no)` function** — wrap the discovery-to-summary flow into a reusable function that returns a small dictionary report for any USGS gauge.
+5. **Debug This Snippet with AI** — find and fix a common pandas resampling bug (`.sum()` vs `.mean()`) in an hourly-to-daily conversion by pasting the buggy code into an AI assistant.
 
 ## Key Takeaways
 

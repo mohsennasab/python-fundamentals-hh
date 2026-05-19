@@ -95,12 +95,13 @@ The raster functions have some unfamiliar syntax, but the concepts map directly 
 
 ## Practice Exercises
 
-The lesson includes 4 exercises:
+The lesson includes 5 exercises:
 
 1. **Multi-Watershed Raster Analysis** - Compare elevation and land cover across multiple watersheds
 2. **Aspect Analysis** - Calculate and classify terrain aspect (slope direction)
 3. **Elevation-Land Cover Relationship** - Analyze how land cover varies with elevation
 4. **Runoff Potential Map** - Combine slope and land cover to map runoff potential
+5. **Debug This Snippet with AI** - Find and fix a NoData-masking bug in a mean-elevation function by pasting the buggy code into an AI assistant
 
 ## Key Takeaways
 

@@ -33,7 +33,7 @@ By the end of this module, you will be able to:
 - Design storm hyetograph generation function
 - Batch processing multiple AEP events
 - Comparative visualization of design storms
-- Professional summary tables (storm characteristics, peak intensities)
+- Professional summary table of storm characteristics (depth, peak intensity, peak time, duration)
 - HEC-HMS export formatting
 - Project archiving and download
 - An end-of-module "Debug This Snippet with AI" exercise that walks you through pasting buggy code into your AI assistant
