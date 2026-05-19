@@ -197,6 +197,16 @@ If you enjoyed this course and found it useful, consider keeping me caffeinated 
 
 ---
 
+## How This Course Was Reviewed
+
+This course has been put together and reviewed both manually and with AI-assisted support tools, including [Claude Code](https://www.anthropic.com/claude-code). The AI was used as a collaborator to help review code, refine explanations, sanity-check workflows, and keep formatting consistent across modules and READMEs. Every change was reviewed by the author before being committed.
+
+Despite that careful review, occasional mistakes or syntax issues may still slip through. The Python ecosystem also changes over time, so an example that works today might need a small tweak tomorrow. If you spot something that isn't quite right, please [open an issue](https://github.com/mohsennasab/python-fundamentals-hh/issues) so it can be fixed and improved for the next learner.
+
+The course also encourages the same approach in students: throughout the modules you'll see 🤖 prompt callouts that invite you to paste code into an AI assistant and ask for explanations, modifications, or help debugging. Using AI thoughtfully alongside your own engineering judgment is part of how this material is meant to be learned.
+
+---
+
 ## Contributing
 
 Contributions are welcome and encouraged! This course grows through community input from practicing engineers and researchers.

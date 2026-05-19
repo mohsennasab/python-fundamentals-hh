@@ -98,12 +98,13 @@ This module includes **🤖 AI Assistant Prompts** throughout. As you learn spat
 
 ## Practice Exercises
 
-The lesson includes 4 exercises ranging from basic to advanced:
+The lesson includes 5 exercises ranging from basic to advanced:
 
 1. **Watershed Area Ranking** - Calculate and sort watershed areas
 2. **Multi-Watershed Analysis** - Analyze building counts across multiple watersheds
 3. **Buffer Analysis** - Create buffers and find spatial intersections
 4. **Professional Map** - Create publication-ready cartography
+5. **Debug This Snippet with AI** - Find and fix a common CRS pitfall in a watershed-area function by pasting the buggy code into an AI assistant
 
 ## Key Takeaways
 
