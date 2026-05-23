@@ -13,11 +13,12 @@
 </p>
 
 <p align="center">
-  <a href="#-about">About</a> •
-  <a href="#-course-modules">Modules</a> •
-  <a href="#-getting-started">Getting Started</a> •
-  <a href="#-contributing">Contributing</a> •
-  <a href="#-license">License</a>
+  <a href="#about">About</a> •
+  <a href="#course-modules">Modules</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#more-hh-python-tools-to-explore">Tools</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
 </p>
 
 <p align="center">

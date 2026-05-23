@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Python for H&H - LinkedIn Carousel</title>
+<!--
+  HOW TO USE
+  1. Open this file in Chrome.
+  2. To export: Ctrl/Cmd + P  ->  Destination: Save as PDF  ->  Margins: None,
+     Background graphics: ON. Each slide becomes one page.
+     (Or just screenshot each square slide.)
+  3. Upload the PDF to LinkedIn as a "document" post to get the swipeable carousel.
+  Slides are 1080 x 1080 (square), the standard LinkedIn carousel size.
+-->
+<style>
+  :root {
+    --bg1: #0b1f2a;
+    --bg2: #0f2e3d;
+    --teal: #2dd4bf;
+    --teal-deep: #14b8a6;
+    --blue: #38bdf8;
+    --py: #ffd43b;
+    --ink: #f4f8fb;
+    --muted: #9fb6c4;
+    --card: rgba(255,255,255,0.06);
+    --line: rgba(255,255,255,0.12);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #5b6770;
+    font-family: 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    padding: 40px 0;
+  }
+
+  .slide {
+    width: 1080px;
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(120% 120% at 15% 10%, var(--bg2) 0%, var(--bg1) 60%, #08161e 100%);
+    color: var(--ink);
+    padding: 96px 90px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wave {
+    position: absolute;
+    left: 0; right: 0; bottom: -2px;
+    width: 100%;
+    opacity: 0.5;
+  }
+  .accent-bar {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 12px;
+    background: linear-gradient(90deg, var(--teal) 0%, var(--blue) 60%, var(--py) 100%);
+  }
+
+  .eyebrow {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 28px;
+  }
+
+  h1 { font-size: 96px; line-height: 1.04; font-weight: 800; letter-spacing: -1.5px; }
+  h2 { font-size: 72px; line-height: 1.08; font-weight: 800; letter-spacing: -1px; }
+  .big { font-size: 84px; line-height: 1.06; font-weight: 800; letter-spacing: -1px; }
+  .sub { font-size: 38px; color: var(--muted); font-weight: 500; line-height: 1.4; }
+
+  .spacer { flex: 1; }
+
+  .footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 26px;
+    color: var(--muted);
+    z-index: 2;
+  }
+  .swipe { color: var(--teal); font-weight: 700; }
+
+  .points { display: flex; flex-direction: column; gap: 30px; margin-top: 20px; z-index: 2; }
+  .point {
+    display: flex; align-items: center; gap: 28px;
+    font-size: 40px; font-weight: 600; line-height: 1.25;
+  }
+  .point .ic {
+    flex: 0 0 84px; height: 84px; width: 84px;
+    border-radius: 20px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .point .ic svg { width: 44px; height: 44px; stroke: var(--teal); fill: none; stroke-width: 2.2; }
+
+  .brand-dot { display:inline-block; width:18px; height:18px; border-radius:50%; background:var(--teal); margin-right:14px; }
+
+  .tag {
+    display: inline-block;
+    font-size: 24px; font-weight: 700; letter-spacing: 3px;
+    color: #08161e; background: var(--py);
+    padding: 10px 22px; border-radius: 999px; text-transform: uppercase;
+  }
+
+  .mod-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 26px;
+    margin-top: 26px;
+    z-index: 2;
+  }
+  .mod {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    padding: 30px 34px;
+    display: flex; align-items: center; gap: 26px;
+  }
+  .mod .num {
+    flex: 0 0 76px; height: 76px; width: 76px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, var(--teal-deep), var(--blue));
+    color: #04121a;
+    font-size: 38px; font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .mod .label { font-size: 34px; font-weight: 700; }
+  .mod .label small { display:block; font-size: 23px; color: var(--muted); font-weight: 500; margin-top: 4px; }
+
+  .cards { display:flex; flex-direction:column; gap: 28px; margin-top: 24px; z-index:2; }
+  .card-row {
+    background: var(--card); border: 1px solid var(--line); border-radius: 22px;
+    padding: 36px 40px;
+  }
+  .card-row .t { font-size: 44px; font-weight: 800; margin-bottom: 8px; }
+  .card-row .d { font-size: 30px; color: var(--muted); line-height: 1.35; }
+
+  .cta-link {
+    font-size: 40px; font-weight: 800; color: var(--py);
+    word-break: break-all;
+  }
+  .pill-row { display:flex; gap:16px; flex-wrap:wrap; margin-top: 30px; z-index:2; }
+  .pill {
+    font-size: 28px; font-weight: 700; color: var(--ink);
+    background: var(--card); border: 1px solid var(--line);
+    padding: 14px 26px; border-radius: 999px;
+  }
+
+  .slide-no {
+    position: absolute; top: 40px; right: 48px;
+    font-size: 24px; font-weight: 700; color: var(--muted); z-index: 3;
+  }
+
+  @media print {
+    body { background: none; gap: 0; padding: 0; }
+    .slide { page-break-after: always; }
+    @page { size: 1080px 1080px; margin: 0; }
+  }
+
+  /* faded hydrology background: meandering river + topographic contours */
+  .bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+  }
+  .accent-bar { z-index: 2; }
+  .wave { z-index: 1; }
+  .slide h1, .slide h2, .slide .big,
+  .eyebrow, .sub, .tag, .cta-link,
+  .points, .cards, .mod-grid, .pill-row, .footer-row {
+    position: relative;
+    z-index: 2;
+  }
+</style>
+</head>
+<body>
+
+<!-- Hydrology background art, defined once and reused on every slide -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <g id="hydrobg" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <!-- faint topographic contour lines (the terrain / watershed feel) -->
+      <g stroke="#bfe3ef" stroke-width="2" opacity="0.06">
+        <path d="M-40,150 C 220,90 430,210 650,150 S 980,90 1120,170"/>
+        <path d="M-40,275 C 220,215 430,335 650,275 S 980,215 1120,295"/>
+        <path d="M-40,400 C 220,340 430,460 650,400 S 980,340 1120,480"/>
+        <path d="M-40,560 C 240,500 440,620 660,560 S 980,500 1120,640"/>
+        <path d="M-40,720 C 240,660 440,780 660,720 S 980,660 1120,800"/>
+        <path d="M-40,880 C 240,820 440,940 660,880 S 980,820 1120,960"/>
+        <path d="M-40,1010 C 240,950 440,1070 660,1010 S 980,950 1120,1090"/>
+      </g>
+      <!-- the river: a soft wide ribbon following a meander -->
+      <path d="M 600,-60 C 380,150 840,320 620,480 C 470,590 880,720 660,900 C 560,990 770,1080 620,1180" stroke="#38bdf8" stroke-width="60" opacity="0.10"/>
+      <!-- the river thread / centerline -->
+      <path d="M 600,-60 C 380,150 840,320 620,480 C 470,590 880,720 660,900 C 560,990 770,1080 620,1180" stroke="#2dd4bf" stroke-width="3" opacity="0.20"/>
+      <!-- tributaries joining the main channel -->
+      <path d="M -60,470 C 220,500 380,470 620,480" stroke="#38bdf8" stroke-width="22" opacity="0.07"/>
+      <path d="M 1140,330 C 900,330 770,430 632,475" stroke="#38bdf8" stroke-width="18" opacity="0.07"/>
+      <path d="M 1140,840 C 920,840 800,880 668,900" stroke="#38bdf8" stroke-width="20" opacity="0.07"/>
+    </g>
+  </defs>
+</svg>
+
+<!-- SLIDE 1: COVER -->
+<div class="slide">
+  <div class="accent-bar"></div>
+  <svg class="bg" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#hydrobg"/></svg>
+  <div class="slide-no">1 / 9</div>
+  <span class="tag">Free • Open Source</span>
+  <div class="spacer"></div>
+  <h1>Python for<br>H&amp;H Modeling<br>&amp; Analysis</h1>
+  <p class="sub" style="margin-top:34px;">A hands-on course for water<br>resources engineers. No prior<br>programming experience required.</p>
+  <div class="spacer"></div>
+  <div class="footer-row">
+    <span><span class="brand-dot"></span>Mohsen Tahmasebi Nasab, PhD</span>
+    <span class="swipe">Swipe &rarr;</span>
+  </div>
+  <svg class="wave" viewBox="0 0 1080 120" preserveAspectRatio="none"><path d="M0,60 C180,120 360,0 540,40 C720,80 900,120 1080,50 L1080,120 L0,120 Z" fill="#14b8a6"/></svg>
+</div>
+
+<!-- SLIDE 2: HOOK -->
+<div class="slide">
+  <div class="accent-bar"></div>
+  <svg class="bg" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#hydrobg"/></svg>
+  <div class="slide-no">2 / 9</div>
+  <div class="spacer"></div>
+  <h1>You don't need<br>to become a<br><span style="color:var(--teal);">programmer.</span></h1>
+  <p class="sub" style="margin-top:40px;">You just need Python to help solve your problems.</p>
+  <div class="spacer"></div>
+  <div class="footer-row"><span>Fundamentals of Python for H&amp;H</span><span class="swipe">&rarr;</span></div>
+  <svg class="wave" viewBox="0 0 1080 120" preserveAspectRatio="none"><path d="M0,60 C180,120 360,0 540,40 C720,80 900,120 1080,50 L1080,120 L0,120 Z" fill="#14b8a6"/></svg>
+</div>
+
+<!-- SLIDE 3: WHY NOW (LLMs lower the barrier) -->
+<div class="slide">
+  <div class="accent-bar"></div>
+  <svg class="bg" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#hydrobg"/></svg>
+  <div class="slide-no">3 / 9</div>
+  <div class="eyebrow">What changed</div>
+  <h2>LLMs lowered the<br>barrier to learning<br>and using code.</h2>
+  <div class="points">
+    <div class="point"><span class="ic"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>Explain unfamiliar code</div>
+    <div class="point"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M19 5l-3 3M8 16l-3 3"/></svg></span>Debug errors faster</div>
+    <div class="point"><span class="ic"><svg viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></span>Turn plain descriptions into code</div>
+  </div>
+  <div class="spacer"></div>
+  <p class="sub">ChatGPT, Claude, Gemini, and Copilot are AI assistants powered by Large Language Models (LLMs).</p>
+  <svg class="wave" viewBox="0 0 1080 120" preserveAspectRatio="none"><path d="M0,60 C180,120 360,0 540,40 C720,80 900,120 1080,50 L1080,120 L0,120 Z" fill="#14b8a6"/></svg>
+</div>
+
+<!-- SLIDE 4: WHAT MAKES IT DIFFERENT -->
+<div class="slide">
+  <div class="accent-bar"></div>
+  <svg class="bg" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#hydrobg"/></svg>
+  <div class="slide-no">4 / 9</div>
+  <div class="eyebrow">The approach</div>
+  <h2>Built for<br>engineers.</h2>
+  <div class="cards">
+    <div class="card-row"><div class="t">Real H&amp;H workflows</div><div class="d">Every example is hydrology and hydraulics, not toy exercises.</div></div>
+    <div class="card-row"><div class="t">Clarity over cleverness</div><div class="d">Readable code a first-time user can actually follow.</div></div>
+    <div class="card-row"><div class="t">LLM assistance from day one</div><div class="d">Focus on solving engineering problems, not memorizing syntax.</div></div>
+  </div>
+  <svg class="wave" viewBox="0 0 1080 120" preserveAspectRatio="none"><path d="M0,60 C180,120 360,0 540,40 C720,80 900,120 1080,50 L1080,120 L0,120 Z" fill="#14b8a6"/></svg>
+</div>
+
+<!-- SLIDE 5: SIX MODULES -->
+<div class="slide">
+  <div class="accent-bar"></div>
+  <svg class="bg" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#hydrobg"/></svg>
+  <div class="slide-no">5 / 9</div>
+  <div class="eyebrow">Six modules</div>
+  <h2 style="font-size:60px;">From basics to<br>real workflows.</h2>
+  <div class="mod-grid">
+    <div class="mod"><span class="num">01</span><span class="label">Setup &amp; Fundamentals<small>Python via H&amp;H analogies</small></span></div>
+    <div class="mod"><span class="num">02</span><span class="label">Time Series<small>Hydrographs, flow stats</small></span></div>
+    <div class="mod"><span class="num">03</span><span class="label">Vector Data<small>Watersheds, mapping</small></span></div>
+    <div class="mod"><span class="num">04</span><span class="label">Raster Data<small>DEMs, slope, land cover</small></span></div>
+    <div class="mod"><span class="num">05</span><span class="label">USGS &amp; Stream Data<small>Gauge data retrieval</small></span></div>
+    <div class="mod"><span class="num">06</span><span class="label">Precipitation<small>NOAA Atlas 14 storms</small></span></div>
+  </div>
+  <svg class="wave" viewBox="0 0 1080 120" preserveAspectRatio="none"><path d="M0,60 C180,120 360,0 540,40 C720,80 900,120 1080,50 L1080,120 L0,120 Z" fill="#14b8a6"/></svg>
+</div>
+
+<!-- SLIDE 6: WHAT YOU'LL DO -->
+<div class="slide">
+  <div class="accent-bar"></div>
+  <svg class="bg" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#hydrobg"/></svg>
+  <div class="slide-no">6 / 9</div>
+  <div class="eyebrow">By the end</div>
+  <h2>You'll automate<br>the tedious work.</h2>
+  <div class="points">
+    <div class="point"><span class="ic"><svg viewBox="0 0 24 24"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg></span>Pull USGS gauge data in minutes</div>
+    <div class="point"><span class="ic"><svg viewBox="0 0 24 24"><path d="M3 18 L8 8 L13 14 L18 5 L21 11"/><path d="M3 21h18"/></svg></span>Generate design storms from NOAA</div>
+    <div class="point"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.5-7-11a7 7 0 0 1 14 0c0 4.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>Map watersheds, terrain &amp; land cover</div>
+    <div class="point"><span class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></span>Process time series and Excel data programmatically</div>
+  </div>
+  <svg class="wave" viewBox="0 0 1080 120" preserveAspectRatio="none"><path d="M0,60 C180,120 360,0 540,40 C720,80 900,120 1080,50 L1080,120 L0,120 Z" fill="#14b8a6"/></svg>
+</div>
+
+<!-- SLIDE 7: LLM AS A STUDY BUDDY -->
+<div class="slide">
+  <div class="accent-bar"></div>
+  <svg class="bg" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#hydrobg"/></svg>
+  <div class="slide-no">7 / 9</div>
+  <div class="eyebrow">How you learn</div>
+  <div class="spacer"></div>
+  <h1 style="font-size:82px;">Paste the code.<br>Ask why.<br><span style="color:var(--teal);">Keep going.</span></h1>
+  <p class="sub" style="margin-top:38px;">Every module has ready-to-use prompts<br>and LLM-assisted debugging exercises built in.</p>
+  <div class="spacer"></div>
+  <div class="footer-row"><span>ChatGPT • Claude • Gemini • Copilot</span><span class="swipe">&rarr;</span></div>
+  <svg class="wave" viewBox="0 0 1080 120" preserveAspectRatio="none"><path d="M0,60 C180,120 360,0 540,40 C720,80 900,120 1080,50 L1080,120 L0,120 Z" fill="#14b8a6"/></svg>
+</div>
+
+<!-- SLIDE 8: LLMs DON'T REPLACE YOUR JUDGMENT -->
+<div class="slide">
+  <div class="accent-bar"></div>
+  <svg class="bg" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#hydrobg"/></svg>
+  <div class="slide-no">8 / 9</div>
+  <div class="eyebrow">One important caveat</div>
+  <h2>An LLM assistant is a study buddy,<br>not the engineer.</h2>
+  <div class="points">
+    <div class="point"><span class="ic"><svg viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1 3 3 6 3s6-2 6-3v-5"/></svg></span>Great for learning, explaining, and debugging</div>
+    <div class="point"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/></svg></span>You own the assumptions, methods, and QA/QC</div>
+    <div class="point"><span class="ic"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.5-4.5"/></svg></span>Always sanity-check what it gives you</div>
+  </div>
+  <div class="spacer"></div>
+  <p class="sub">LLM-assisted coding can help you learn faster. The engineering judgment stays yours.</p>
+  <svg class="wave" viewBox="0 0 1080 120" preserveAspectRatio="none"><path d="M0,60 C180,120 360,0 540,40 C720,80 900,120 1080,50 L1080,120 L0,120 Z" fill="#14b8a6"/></svg>
+</div>
+
+<!-- SLIDE 9: CTA -->
+<div class="slide">
+  <div class="accent-bar"></div>
+  <svg class="bg" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#hydrobg"/></svg>
+  <div class="slide-no">9 / 9</div>
+  <div class="spacer"></div>
+  <span class="tag">Start today</span>
+  <h1 style="margin-top:30px;">Free. Open.<br>No installation<br>required.</h1>
+  <div class="pill-row">
+    <span class="pill">Runs entirely in Google Colab</span>
+    <span class="pill">Beginner friendly</span>
+    <span class="pill">Pilot-tested with WRE professionals</span>
+  </div>
+  <p class="sub" style="margin-top:40px;">Find it on GitHub:</p>
+  <div class="cta-link">github.com/mohsennasab/python-fundamentals-hh</div>
+  <div class="spacer"></div>
+  <div class="footer-row"><span><span class="brand-dot"></span>hydromohsen.com</span><span>Follow for more</span></div>
+  <svg class="wave" viewBox="0 0 1080 120" preserveAspectRatio="none"><path d="M0,60 C180,120 360,0 540,40 C720,80 900,120 1080,50 L1080,120 L0,120 Z" fill="#14b8a6"/></svg>
+</div>
+
+</body>
+</html>
