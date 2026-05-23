@@ -47,6 +47,14 @@ The course recognizes that AI and large language models have fundamentally chang
 
 By the end of the course, you will feel comfortable using Python and modern LLM-assisted workflows as everyday tools to support hydrologic and hydraulic modeling, data analysis, and decision-making in real-world engineering practice.
 
+### A Note on Units
+
+You may notice that many of the examples in this course use U.S. customary units instead of SI units. I understand this can make some examples a little more challenging to follow for learners outside the United States.
+
+I encourage you to look at this as an opportunity to strengthen both your Python and engineering skills by practicing unit conversions as you work through the exercises. Being comfortable converting between unit systems is a valuable skill in real-world engineering projects.
+
+As the course continues to grow, I'll make an effort to include more SI-based examples and case studies from different parts of the world.
+
 ---
 
 ## Course Modules
