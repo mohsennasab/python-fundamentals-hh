@@ -67,6 +67,7 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
       <th>Topic</th>
       <th width="100">Level</th>
       <th width="100">Status</th>
+      <th>Open in Colab</th>
     </tr>
   </thead>
   <tbody>
@@ -75,36 +76,55 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/01_setup_and_fundamentals">Setup and Fundamentals</a></td>
       <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
+      <td align="center">
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/01_setup_and_fundamentals/01_01_introduction_fundamentals.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a><br>
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/01_setup_and_fundamentals/01_02_python_fundamentals.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 2"></a>
+      </td>
     </tr>
     <tr>
       <td align="center"><strong>02</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/02_timeseries">Time Series</a></td>
       <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
+      <td align="center">
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/02_timeseries/02_01_TimeSeries_Basics.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+      </td>
     </tr>
     <tr>
       <td align="center"><strong>03</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/03_vector-data">Vector Data</a></td>
       <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
+      <td align="center">
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/03_vector-data/03_01_introduction_to_vector_data.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+      </td>
     </tr>
     <tr>
       <td align="center"><strong>04</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/04_raster-data">Raster Data</a></td>
       <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
+      <td align="center">
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/04_raster-data/Module4_RasterData.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+      </td>
     </tr>
     <tr>
       <td align="center"><strong>05</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/05_stream-data">Stream Data</a></td>
       <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
+      <td align="center">
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/05_stream-data/Module5_USGSDataRetrieval.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+      </td>
     </tr>
     <tr>
       <td align="center"><strong>06</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/06_precip-data">Precipitation Data</a></td>
       <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
+      <td align="center">
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/06_precip-data/Module6_PrecipitationData.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+      </td>
     </tr>
   </tbody>
 </table>
