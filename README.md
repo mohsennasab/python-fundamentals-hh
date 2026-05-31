@@ -18,6 +18,7 @@
   <a href="#getting-started">Getting Started</a> •
   <a href="#more-hh-python-tools-to-explore">Tools</a> •
   <a href="#contributing">Contributing</a> •
+  <a href="DATA_SHARING.md">Data Sharing</a> •
   <a href="#license">License</a>
 </p>
 
@@ -267,7 +268,7 @@ Each notebook must include the following sections at the top:
 
 - **Use real H&H examples.** Every code example should relate to hydrology, hydraulics, or water resources engineering. No generic programming exercises.
 - **Prefer clarity over cleverness.** Write code that a first-time Python user can follow. If a one-liner is hard to read, break it into multiple lines with comments.
-- **Include sample data.** Provide any data files needed to run the notebook. Place them in a `data/` subfolder within your module directory. Make sure your sample data does not include any information you don't want to share publically. 
+- **Include sample data.** Provide any data files needed to run the notebook. Place them in a `data/` subfolder within your module directory. Make sure your sample data does not include any information you don't want to share publically. See the [Data Sharing Guidelines](DATA_SHARING.md) for what is and isn't safe to commit.
 - **Test in Google Colab.** All notebooks must run successfully in a fresh Colab session with no local dependencies beyond `pip install`.
 - **Show AI-assisted workflows.** Demonstrate how learners can use AI tools (ChatGPT, Claude, Gemini, Copilot) to understand and extend the code. Include practical prompts they can copy and use.
 - **Keep the tone friendly and human.** Write as if you're explaining to a colleague, not writing a textbook. Avoid overly formal language and excessive emoji.
