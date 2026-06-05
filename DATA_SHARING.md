@@ -2,7 +2,7 @@
 
 Because the course material is published openly, every sample dataset and every line of code committed to this repository must be safe to share. Care should be taken before any file is added.
 
-> **Important:** Data owned by clients or by the company must not be shared in any course material. If a workflow needs to be demonstrated with internal data, that data must be anonymized before being included.
+> **Important:** Data owned by a third party, an employer, or any organization other than the contributor must not be shared in any course material. If a workflow needs to be demonstrated with restricted data, that data must be anonymized or replaced with a public or synthetic equivalent before being included.
 
 ## Acceptable sources
 
@@ -12,10 +12,10 @@ Because the course material is published openly, every sample dataset and every 
 
 ## Not acceptable
 
-- Client deliverables, project files, or internal model results, as these typically remain the property of the client or the company under the governing contract
-- Code, scripts, or files that are contractually owned by a client as work product, regardless of who wrote them, reused or distributed outside the scope of that engagement
+- Deliverables, project files, or internal model results that belong to a third party or an employer under a contract, statement of work, or internal policy
+- Code, scripts, or files that are contractually or legally owned by a third party as work product, regardless of who wrote them, reused or distributed outside the scope of that engagement
 - Datasets, models, or software covered by a non-disclosure agreement, data-use agreement, or licensing restriction
-- Proprietary workflows, methods, or internal tools protected as intellectual property or trade secrets, and any code or technique that provides a competitive advantage to an individual, a team, or the company
+- Proprietary workflows, methods, or internal tools protected as intellectual property or trade secrets, and any code or technique that provides a competitive advantage to an individual, a team, or an organization
 - Credentials, API keys, tokens, connection strings, and internal file paths, server names, or other infrastructure details left visible in a notebook or script
 - Any file, dataset, or notebook that has not been formally cleared for public release through the appropriate review
 
@@ -23,7 +23,7 @@ Because the course material is published openly, every sample dataset and every 
 
 A quick check before pushing any new lesson or dataset:
 
-1. Could this file, or the data behind it, be traced back to a specific client, project, or proprietary internal source?
+1. Could this file, or the data behind it, be traced back to a specific third party, project, or proprietary internal source?
 2. Does the workflow reveal a method, calibration, or pipeline that gives someone a competitive edge they would not want shared?
 3. Are there credentials, tokens, internal paths, or personally identifiable values still visible anywhere in the code or its outputs?
 4. Has the file been cleared through the appropriate review for public release?
