@@ -390,7 +390,9 @@ OTHER DEALINGS IN THE COURSE MATERIALS.
 
 </details>
 
+
 **In plain English:** This course is free for you to learn from on your own. Teaching with it, presenting it, republishing it, adapting it, or using it commercially (paid workshops, corporate training, monetized videos or online courses, etc.) all require permission first. Just reach out at [hydromohsen.com](https://hydromohsen.com).
+
 ---
 
 <p align="center">
