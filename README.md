@@ -24,7 +24,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python Version">
-  <img src="https://img.shields.io/badge/License-Custom_Open_Source-green.svg" alt="License">
+  <img src="https://img.shields.io/badge/License-Personal_Use_Only-green.svg" alt="License">
   <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
 </p>
 
@@ -315,39 +315,69 @@ Have a tool you'd recommend? Open an issue or a pull request and we'll add it to
 
 ## License
 
-This project is released under a **custom open-source license** for individual educational use.
+This project is released under a **custom license for personal educational use**. All rights not expressly granted below are reserved.
+
+**Terms at a glance:**
+
+| You may | You may not (without written permission) |
+|---|---|
+| Use the materials for your own personal learning and self-study | Redistribute, republish, or mirror the materials |
+| Contribute improvements back to this repository | Teach, present, or use the materials to instruct others, whether free or paid, online or in person |
+| Link others to this repository | Create adapted or derivative versions for distribution |
+| | Sell, license, or monetize the materials, including monetized videos, online courses, and ad-supported tutorials |
+
+In plain terms: this course is free for you to learn from on your own. Using it to teach, present, republish, adapt, or monetize, in any form, requires the author's written permission first.
+
+**Want to teach with it, adapt it, or use it commercially?** Contact the author at [hydromohsen.com](https://hydromohsen.com) for written permission. Permission is often available for non-commercial educational use, but it needs to be arranged in advance.
 
 <details>
 <summary>View Full License</summary>
 
 ```
-Open Source License for Individual Use
+License for Personal Educational Use
 
-Copyright (c) 2025 Mohsen Tahmasebi Nasab
+Copyright (c) 2026 Mohsen Tahmasebi Nasab. All rights reserved.
 
 Permission is hereby granted, free of charge, to any individual obtaining a
-copy of this software and associated documentation files (the "Course
-Materials"), to use, copy, modify, and share the Course Materials for personal
-learning, education, and non-commercial purposes, subject to the following
-conditions:
+copy of these materials and associated documentation files (the "Course
+Materials"), to access and use the Course Materials solely for that
+individual's own personal, non-commercial learning and self-study, subject to
+the following conditions. All rights not expressly granted here are reserved by
+the copyright holder.
 
-1. INDIVIDUAL USE: The Course Materials may be freely used by individuals for
-   self-study, personal skill development, and educational purposes.
+1. PERSONAL USE ONLY: The Course Materials may be used by individuals for their
+   own self-study, personal skill development, and private educational
+   purposes. This grant is personal to each user and is not transferable.
 
-2. ATTRIBUTION: Any redistribution or derivative work must include attribution
-   to the original author and a link to the original repository at
+2. NO REDISTRIBUTION OR INSTRUCTIONAL USE WITHOUT PERMISSION: The Course
+   Materials may not be redistributed, republished, mirrored, or used to
+   teach, train, present to, or otherwise instruct any other person or group,
+   whether free or paid, online or in person, without prior written permission
+   from the copyright holder.
+
+3. NO DERIVATIVE WORKS WITHOUT PERMISSION: Adapted, translated, or derivative
+   versions of the Course Materials may not be created for distribution,
+   publication, or presentation without prior written permission from the
+   copyright holder.
+
+4. NO COMMERCIAL USE: The Course Materials may not be sold, licensed, or used
+   as part of any paid training program, commercial product, or for-profit
+   service. This includes, without limitation, monetized video content, online
+   courses, and ad-supported tutorials that reproduce or are derived from the
+   Course Materials.
+
+5. CONTRIBUTIONS: Submitting a contribution (such as a pull request) to this
+   repository is permitted and encouraged. By doing so, you grant the copyright
+   holder the right to use and publish your contribution as part of the Course
+   Materials under these same license terms, with attribution to you as the
+   contributor.
+
+6. PERMISSIONS: Requests to teach with, adapt, redistribute, or otherwise use
+   the Course Materials beyond personal self-study may be directed to the
+   author at https://hydromohsen.com. Any such use requires written permission
+   granted in advance, and where granted must credit the original author and
+   link to the original repository at
    https://github.com/mohsennasab/python-fundamentals-hh
-
-3. NON-COMMERCIAL: The Course Materials may not be sold, licensed, or used as
-   part of any paid training program, commercial product, or for-profit service
-   without prior written permission from the copyright holder.
-
-4. CONTRIBUTIONS: By submitting a contribution (pull request) to this
-   repository, you agree that your contribution will be published under these
-   same license terms, with attribution to you as the contributor.
-
-5. SHARE-ALIKE: Any modified versions or derivative works that are distributed
-   must be shared under these same license terms.
 
 THE COURSE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
@@ -360,8 +390,7 @@ OTHER DEALINGS IN THE COURSE MATERIALS.
 
 </details>
 
-**In plain English:** You are free to use, study, and share this course for personal and educational purposes. If you redistribute or build on it, give credit and keep it open. For commercial use (paid workshops, corporate training programs, etc.), please reach out for permission first.
-
+**In plain English:** This course is free for you to learn from on your own. Teaching with it, presenting it, republishing it, adapting it, or using it commercially (paid workshops, corporate training, monetized videos or online courses, etc.) all require permission first. Just reach out at [hydromohsen.com](https://hydromohsen.com).
 ---
 
 <p align="center">
