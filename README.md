@@ -329,6 +329,12 @@ Have a tool you'd recommend? Open an issue or a pull request and we'll add it to
 
 ---
 
+## Disclaimer
+
+This course, including its notebooks, code, datasets, examples, and supporting materials, is provided for educational purposes only. The software and data are provided "as is," without warranty of any kind. Always independently verify all inputs, assumptions, calculations, outputs, and interpretations before using them in analysis, modeling, design, regulatory submittals, operational decisions, or other professional applications. These materials are intended to support learning and should not replace engineering judgment, quality control, or project-specific review.
+
+---
+
 ## License
 
 This project is released under a **custom license for personal educational use**. All rights not expressly granted below are reserved.
