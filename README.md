@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="figures/Logo_white.png" alt="Course Logo" width="400">
-</p>
-
-<p align="center">
-  <img src="figures/Banner.png" alt="Course Banner" width="750">
+  <img src="figures/BAnner_Pixel.png" alt="Fundamentals of Python for H&amp;H Modeling and Analysis" width="700">
 </p>
 
 <h1 align="center">Fundamentals of Python for H&H Modeling and Analysis</h1>
@@ -136,6 +132,15 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
         <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/07_soil-data/07_01_soil_data_ssurgo.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
       </td>
     </tr>
+    <tr>
+      <td align="center"><strong>08</strong></td>
+      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/08_landuse-data">Land Cover & Impervious</a></td>
+      <td align="center">Beginner</td>
+      <td align="center">✅ Available</td>
+      <td align="center">
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/08_landuse-data/08_01_land_cover_impervious.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -179,7 +184,8 @@ python-fundamentals-hh/
 │   ├── 04_raster-data/
 │   ├── 05_stream-data/
 │   ├── 06_precip-data/
-│   └── 07_soil-data/
+│   ├── 07_soil-data/
+│   └── 08_landuse-data/
 ├── presentation.html     # Course introduction presentation
 ├── .gitignore
 └── README.md

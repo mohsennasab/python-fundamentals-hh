@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../../figures/Logo_pixel.png" alt="Course Logo" width="100">
+</p>
+
 # Module 1: Setup and Fundamentals
 
 ## Overview

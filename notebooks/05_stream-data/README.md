@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../../figures/Logo_pixel.png" alt="Course Logo" width="100">
+</p>
+
 # Module 5: USGS Data Retrieval
 
 ## Overview
