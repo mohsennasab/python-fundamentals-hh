@@ -1,0 +1,15 @@
+mukey,ksat_x_pct,pct_represented,ksat_umsec,ksat_in_hr,muname,hydgrpdcd,drclassdcd,aws0100wta,huc12,aggregation_method,source,access_date
+104901,900.0,100,9.0,1.2755699999999999,"Albinas loam, 0 to 6 percent slopes",B,Well drained,17.55,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05
+104905,1641.5683,100,16.415682999999998,2.3265947515899996,"Ascalon loam, cool, 0 to 6 percent slopes",B,Well drained,13.15,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05
+104906,2800.0,100,28.0,3.9684399999999997,"Bayard fine sandy loam, 0 to 15 percent slopes",A,Well drained,13.97,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05
+104930,12445.19275,100,124.4519275,17.638571684575,"Dix-Altvan complex, 10 to 30 percent slopes",A,Excessively drained,6.17,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05
+104932,810.0,90,9.0,1.2755699999999999,"Evanston loam, 0 to 6 percent slopes",B,Well drained,16.68,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05
+104939,1418.0,90,15.755555555555556,2.233034888888889,"Ipson-Evanston complex, 6 to 30 percent slopes",B,Well drained,12.31,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05
+104946,253.79999999999998,90,2.82,0.39967859999999994,"Merden silty clay loam, 0 to 3 percent slopes",C/D,Poorly drained,16.0,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05
+104963,1380.0,90,15.333333333333334,2.1731933333333333,"Poposhia-Trimad complex, 3 to 15 percent slopes",B,Well drained,15.51,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05
+104972,2743.728,90,30.485866666666666,4.320761882666666,"Treon-Aberone fine sandy loams, 6 to 30 percent slopes",D,Well drained,6.39,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05
+104985,225.0,25,9.0,1.2755699999999999,"Urban land-Ascalon complex, 0 to 6 percent slopes",,,17.41,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05
+104986,700.0,25,28.0,3.9684399999999997,"Urban land-Bayard complex, 0 to 15 percent slopes",,,13.97,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05
+104987,270.0,30,9.0,1.2755699999999999,"Urban land-Evanston complex, 0 to 6 percent slopes",,,16.68,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05
+104990,483.75,30,16.125,2.28539625,"Urban land-Poposhia-Trimad complex, 3 to 15 percent slopes",,,14.95,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05
+104997,810.0,90,9.0,1.2755699999999999,"Weed loam, 0 to 6 percent slopes",B,Well drained,16.21,101900090108,component-percentage and depth (0-100 cm) weighted,NRCS Soil Data Access,2026-07-05

@@ -127,6 +127,15 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
         <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/06_precip-data/Module6_PrecipitationData.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
       </td>
     </tr>
+    <tr>
+      <td align="center"><strong>07</strong></td>
+      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/07_soil-data">Soil Data</a></td>
+      <td align="center">Beginner</td>
+      <td align="center">✅ Available</td>
+      <td align="center">
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/07_soil-data/07_01_soil_data_ssurgo.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -169,7 +178,8 @@ python-fundamentals-hh/
 │   ├── 03_vector-data/
 │   ├── 04_raster-data/
 │   ├── 05_stream-data/
-│   └── 06_precip-data/
+│   ├── 06_precip-data/
+│   └── 07_soil-data/
 ├── presentation.html     # Course introduction presentation
 ├── .gitignore
 └── README.md
