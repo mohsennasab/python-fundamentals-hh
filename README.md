@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="figures/BAnner_Pixel.png" alt="Fundamentals of Python for H&amp;H Modeling and Analysis" width="500">
+  <img src="figures/BAnner_Pixel.png" alt="Fundamentals of Python for H&amp;H Modeling and Analysis" width="400">
 </p>
 
 <h1 align="center">Fundamentals of Python for H&H Modeling and Analysis</h1>
