@@ -53,7 +53,7 @@ By the end of this module, you will be able to:
 
 This notebook fetches its own NLCD rasters. There is no raster download or upload step. After you select a watershed, the notebook builds a small bounding box around it and requests exactly that area from the official MRLC Web Coverage Service (WCS), a free, no-login web service. Five small GeoTIFFs (land cover and impervious surface for 2001 and 2021, plus the impervious descriptor for 2021) are fetched and saved automatically, typically a few hundred kilobytes each.
 
-If the live WCS request fails for any reason (a network hiccup, a brief MRLC outage), the notebook automatically falls back to a pre-clipped copy of the same product hosted in this repository's `data/` folder, so a temporary outage does not stop the lesson. You do not need to do anything differently when that happens; a message prints explaining which path was used.
+Every WCS response is opened and checked as a one-band EPSG:5070 raster before the notebook accepts it. If the live request fails or returns something other than a usable raster, the notebook first looks for a pre-clipped copy in the repository's local `data/` folder. If that local file is not present, as in a fresh Colab session, it downloads the same fallback from the course's GitHub repository. You do not need to do anything differently; a message prints explaining which path was used.
 
 **Why not the newer Annual NLCD product line?** Annual NLCD (yearly coverage from 1985 to the present) is distributed through a **requester-pays** AWS S3 bucket (`s3://usgs-landcover/annual-nlcd/...`). Requester-pays buckets reject anonymous requests entirely; every student would need their own AWS account with billing enabled just to fetch one file. That does not fit a free, no-installation course, so this module uses the standard NLCD releases (2001-2021) instead, which the MRLC WCS serves with no account and no cost.
 
@@ -120,6 +120,8 @@ This module leans on AI assistance for reasoning through the NoData investigatio
 - Categorical rasters hold codes; only count them. Continuous rasters hold quantities; average them.
 - Never estimate percent impervious by counting developed land cover classes when the fractional impervious product is available.
 - Verify a raster's true NoData convention against official documentation before masking; do not assume 0 always means missing, and do not assume every product shares the same convention.
+- Read cell dimensions from raster metadata when calculating area instead of hard-coding the expected resolution.
+- Compare valid mapped area between years before interpreting change, and weight descriptor classes by fractional impervious area when separating roads from other built surfaces.
 - Reproject vectors to match raster CRS, never the reverse.
 - Document product, version, and year on every output, especially for change analyses.
 
@@ -127,7 +129,7 @@ This module leans on AI assistance for reasoning through the NoData investigatio
 
 | Issue | Solution |
 |-------|----------|
-| Both the live fetch and the fallback fail | Check your internet connection and rerun the fetch cell; retry after a few minutes if the course repository is briefly unreachable. |
+| The live fetch and all fallbacks fail | Confirm the local `data/` file is present, or check your internet connection and rerun the fetch cell. |
 | A raster fetch is very slow | Reduce `buffer_m`, or confirm you selected a single HUC-12, not a larger area. |
 | Clipped raster is empty or tiny | Confirm the vector was reprojected to the raster's CRS before clipping; print both CRS values. |
 | Land cover and impervious pixel counts do not match for the same watershed | Check the NoData value used for each product; verify against official documentation rather than assuming. |
