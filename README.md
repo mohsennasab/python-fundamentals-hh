@@ -62,6 +62,7 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
     <tr>
       <th width="80">Module</th>
       <th>Topic</th>
+      <th width="90">Lessons</th>
       <th width="100">Level</th>
       <th width="100">Status</th>
       <th>Open in Colab</th>
@@ -71,6 +72,7 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
     <tr>
       <td align="center"><strong>01</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/01_setup_and_fundamentals">Setup and Fundamentals</a></td>
+      <td align="center">2</td>
       <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
       <td align="center">
@@ -81,6 +83,7 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
     <tr>
       <td align="center"><strong>02</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/02_timeseries">Time Series</a></td>
+      <td align="center">1</td>
       <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
       <td align="center">
@@ -90,6 +93,7 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
     <tr>
       <td align="center"><strong>03</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/03_vector-data">Vector Data</a></td>
+      <td align="center">1</td>
       <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
       <td align="center">
@@ -99,6 +103,7 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
     <tr>
       <td align="center"><strong>04</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/04_raster-data">Raster Data</a></td>
+      <td align="center">1</td>
       <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
       <td align="center">
@@ -108,6 +113,7 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
     <tr>
       <td align="center"><strong>05</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/05_stream-data">Stream Data</a></td>
+      <td align="center">1</td>
       <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
       <td align="center">
@@ -117,6 +123,7 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
     <tr>
       <td align="center"><strong>06</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/06_precip-data">Precipitation Data</a></td>
+      <td align="center">1</td>
       <td align="center">Beginner</td>
       <td align="center">✅ Available</td>
       <td align="center">
@@ -126,17 +133,19 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
     <tr>
       <td align="center"><strong>07</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/07_soil-data">Soil Data</a></td>
-      <td align="center">Beginner</td>
+      <td align="center">2</td>
+      <td align="center">Intermediate</td>
       <td align="center">✅ Available</td>
       <td align="center">
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/07_soil-data/07_01_soil_data_ssurgo.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/07_soil-data/07_01_soil_data_ssurgo.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a><br>
         <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/07_soil-data/07_02_soil_data_gnatsgo.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 2"></a>
       </td>
     </tr>
     <tr>
       <td align="center"><strong>08</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/08_landuse-data">Land Cover & Impervious</a></td>
-      <td align="center">Beginner</td>
+      <td align="center">1</td>
+      <td align="center">Intermediate</td>
       <td align="center">✅ Available</td>
       <td align="center">
         <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/08_landuse-data/08_01_land_cover_impervious.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
