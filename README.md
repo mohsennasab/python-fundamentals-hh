@@ -130,6 +130,7 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
       <td align="center">✅ Available</td>
       <td align="center">
         <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/07_soil-data/07_01_soil_data_ssurgo.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/07_soil-data/07_02_soil_data_gnatsgo.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 2"></a>
       </td>
     </tr>
     <tr>
