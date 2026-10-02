@@ -12,14 +12,12 @@ The teaching area includes a community college campus with two ponds, an athleti
 
 ## Lessons
 
-| Lesson | Notebook | Question | Level | Status |
-|---|---|---|---|---|
-| 1 | `09_01_find_download_naip.ipynb` | How do I get a trustworthy, right-sized image for my area? | Intermediate | Available |
-| 2 | `09_02_visualize_compare_naip.ipynb` | What changed between two acquisitions, and what only looks like it changed? | Intermediate | Available |
-| 3 | `09_03_classify_naip_landcover.ipynb` | Can a small labeled sample produce a useful screening map, and where does it fail? | Advanced | Coming soon |
-| Optional | `09_04_advanced_watershed_mosaic.ipynb` | How do I build a full-watershed mosaic from the raw web services? | Advanced | Coming soon |
-
-Lesson 3 and the optional advanced notebook are written and tested but are still under review, so they are not published yet. The sections below describe the full module.
+| Lesson | Notebook | Question | Level |
+|---|---|---|---|
+| 1 | `09_01_find_download_naip.ipynb` | How do I get a trustworthy, right-sized image for my area? | Intermediate |
+| 2 | `09_02_visualize_compare_naip.ipynb` | What changed between two acquisitions, and what only looks like it changed? | Intermediate |
+| 3 | `09_03_classify_naip_landcover.ipynb` | Can a small labeled sample produce a useful screening map, and where does it fail? | Advanced |
+| Optional | `09_04_advanced_watershed_mosaic.ipynb` | How do I build a full-watershed mosaic from the raw web services? | Advanced |
 
 Each core lesson runs on its own in a fresh Colab session. If a lesson needs an earlier lesson's output and can't find it, it downloads the matching course copy and says so.
 

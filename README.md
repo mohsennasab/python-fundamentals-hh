@@ -154,13 +154,14 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
     <tr>
       <td align="center"><strong>09</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/09_naip-imagery">NAIP Aerial Imagery & Land Cover Classification</a></td>
-      <td align="center">2 of 4</td>
+      <td align="center">3 + 1 optional</td>
       <td align="center">Intermediate/Advanced</td>
-      <td align="center">🚧 In Progress</td>
+      <td align="center">✅ Available</td>
       <td align="center">
         <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_01_find_download_naip.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a><br>
         <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_02_visualize_compare_naip.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 2"></a><br>
-        <em>Lessons 3 and 4 coming soon</em>
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_03_classify_naip_landcover.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 3"></a><br>
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_04_advanced_watershed_mosaic.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Optional advanced lesson"></a>
       </td>
     </tr>
   </tbody>
