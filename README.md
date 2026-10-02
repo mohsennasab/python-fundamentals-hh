@@ -151,6 +151,18 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
         <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/08_landuse-data/08_01_land_cover_impervious.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
       </td>
     </tr>
+    <tr>
+      <td align="center"><strong>09</strong></td>
+      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/09_naip-imagery">NAIP Aerial Imagery & Land Cover Classification</a></td>
+      <td align="center">2 of 4</td>
+      <td align="center">Intermediate/Advanced</td>
+      <td align="center">🚧 In Progress</td>
+      <td align="center">
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_01_find_download_naip.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a><br>
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_02_visualize_compare_naip.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 2"></a><br>
+        <em>Lessons 3 and 4 coming soon</em>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -195,7 +207,8 @@ python-fundamentals-hh/
 │   ├── 05_stream-data/
 │   ├── 06_precip-data/
 │   ├── 07_soil-data/
-│   └── 08_landuse-data/
+│   ├── 08_landuse-data/
+│   └── 09_naip-imagery/
 ├── presentation.html     # Course introduction presentation
 ├── .gitignore
 └── README.md
