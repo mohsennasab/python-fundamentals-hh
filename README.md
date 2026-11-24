@@ -164,6 +164,18 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
         <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_04_advanced_watershed_mosaic.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Optional advanced lesson"></a>
       </td>
     </tr>
+    <tr>
+      <td align="center"><strong>10</strong></td>
+      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/10_snow-data">Snow Data (UA 800 m & SNODAS)</a></td>
+      <td align="center">3</td>
+      <td align="center">Intermediate</td>
+      <td align="center">✅ Available</td>
+      <td align="center">
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/10_snow-data/10_01_downloading_snow_data.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a><br>
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/10_snow-data/10_02_ua_snow_analysis_mapping.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 2"></a><br>
+        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/10_snow-data/10_03_snodas_snow_analysis_mapping.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 3"></a>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -209,7 +221,8 @@ python-fundamentals-hh/
 │   ├── 06_precip-data/
 │   ├── 07_soil-data/
 │   ├── 08_landuse-data/
-│   └── 09_naip-imagery/
+│   ├── 09_naip-imagery/
+│   └── 10_snow-data/
 ├── presentation.html     # Course introduction presentation
 ├── .gitignore
 └── README.md
