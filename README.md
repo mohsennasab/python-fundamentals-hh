@@ -1,57 +1,74 @@
 <p align="center">
-  <img src="figures/BAnner_Pixel.png" alt="Fundamentals of Python for H&amp;H Modeling and Analysis" width="400">
+  <img src="figures/BAnner_Pixel.png" alt="Fundamentals of Python for H&amp;H Modeling and Analysis" width="440">
 </p>
 
-<h1 align="center">Fundamentals of Python for H&H Modeling and Analysis</h1>
+<h1 align="center">Fundamentals of Python for H&amp;H Modeling and Analysis</h1>
 
 <p align="center">
-  <strong>A practical Python course for water resources engineers</strong>
+  A practical Python course for water resources engineers
 </p>
 
 <p align="center">
-  <a href="#about">About</a> •
-  <a href="#course-modules">Modules</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#more-hh-python-tools-to-explore">Tools</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="DATA_SHARING.md">Data Sharing</a> •
+  <img src="https://img.shields.io/badge/Python-3.8%2B-1B4D7E?style=flat-square" alt="Python 3.8+">
+  <img src="https://img.shields.io/badge/Modules-10_%C2%B7_17_Notebooks-2E6B9E?style=flat-square" alt="10 Modules and 17 Notebooks">
+  <img src="https://img.shields.io/badge/Google_Colab-Ready-D97706?style=flat-square" alt="Google Colab Ready">
+  <img src="https://img.shields.io/badge/License-Personal_Educational_Use-3F6212?style=flat-square" alt="Personal Educational Use License">
+</p>
+
+<p align="center">
+  <a href="https://hydromohsen.com/python_for_HH/">Course Website</a> &middot;
+  <a href="#about">About</a> &middot;
+  <a href="#course-modules">Modules</a> &middot;
+  <a href="#getting-started">Getting Started</a> &middot;
+  <a href="#more-hh-python-tools-to-explore">Tools</a> &middot;
+  <a href="#contributing">Contributing</a> &middot;
+  <a href="DATA_SHARING.md">Data Sharing</a> &middot;
   <a href="#license">License</a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python Version">
-  <img src="https://img.shields.io/badge/License-Personal_Use_Only-green.svg" alt="License">
-  <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
-</p>
+<table>
+  <tr>
+    <td width="104" align="center" valign="middle">
+      <a href="https://hydromohsen.com/python_for_HH/">
+        <img src="figures/Logo_pixel.png" alt="Python for H&amp;H Course Website" width="80">
+      </a>
+    </td>
+    <td valign="middle">
+      <strong>Interactive Course Website</strong><br>
+      Browse all 10 modules with level filters, inspect Python workflow snippets, track completed notebooks, and explore the watershed runoff hydrograph at <a href="https://hydromohsen.com/python_for_HH/">hydromohsen.com/python_for_HH</a>.<br><br>
+      <a href="https://hydromohsen.com/python_for_HH/"><img src="https://img.shields.io/badge/Open_Course_Website-1B4D7E?style=for-the-badge" alt="Open Course Website"></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## About
 
-This course teaches Python programming fundamentals through **real hydrologic and hydraulic engineering workflows**. It is designed for water resources professionals who already understand H&H concepts but want practical, usable Python skills without becoming software engineers.
+This course teaches Python programming fundamentals through real hydrologic and hydraulic engineering workflows. It is built for water resources professionals who already understand H&amp;H concepts and want practical scripting skills without becoming software engineers.
 
-### What Makes This Course Different
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Real-World Focus</strong><br><br>
+      Every lesson works through daily H&amp;H tasks including time series, spatial vector and raster layers, stream gage records, precipitation datasets, soils, land cover, aerial imagery, and snowpack grids.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Clarity Over Complexity</strong><br><br>
+      The focus stays on clear, readable code that replaces spreadsheets, automates repetitive tasks, and builds reproducible analyses.
+    </td>
+    <td width="33%" valign="top">
+      <strong>AI-Assisted Learning</strong><br><br>
+      AI and large language models have changed how engineers write, read, and debug code. The course shows how to use these tools responsibly to explore unfamiliar libraries, troubleshoot workflows, and improve code quality while keeping engineering judgment and accountability.
+    </td>
+  </tr>
+</table>
 
-**Real-World Focus**  
-Instead of abstract coding exercises, the course focuses on real tasks engineers deal with every day: working with time series, spatial vector and raster data, stream and gage data, and precipitation datasets.
-
-**Clarity Over Complexity**  
-The emphasis is on writing clear, readable code and using Python to replace spreadsheets, automate repetitive tasks, and build reproducible analyses.
-
-**AI-Enhanced Learning**  
-The course recognizes that AI and large language models have fundamentally changed how engineers write, read, and understand code. Rather than ignoring these tools, the course shows how to use them responsibly and effectively to accelerate learning, explore unfamiliar libraries, debug workflows, and improve code quality, while still maintaining engineering judgment and accountability.
-
-### What You'll Learn
-
-By the end of the course, you will feel comfortable using Python and modern LLM-assisted workflows as everyday tools to support hydrologic and hydraulic modeling, data analysis, and decision-making in real-world engineering practice.
+By the end of the course, you will feel comfortable using Python and modern LLM-assisted workflows as everyday tools for hydrologic and hydraulic modeling, data analysis, and engineering decision-making.
 
 ### A Note on Units
 
-You may notice that many of the examples in this course use U.S. customary units instead of SI units. I understand this can make some examples a little more challenging to follow for learners outside the United States.
-
-I encourage you to look at this as an opportunity to strengthen both your Python and engineering skills by practicing unit conversions as you work through the exercises. Being comfortable converting between unit systems is a valuable skill in real-world engineering projects.
-
-As the course continues to grow, I'll make an effort to include more SI-based examples and case studies from different parts of the world.
+Many examples in this course use U.S. customary units alongside SI units to match USGS and NOAA datasets. For learners outside the United States, converting between unit systems as you work through the exercises strengthens both Python and engineering practice. More SI-based examples and case studies will be added as the course grows.
 
 ---
 
@@ -60,158 +77,117 @@ As the course continues to grow, I'll make an effort to include more SI-based ex
 <table>
   <thead>
     <tr>
-      <th width="80">Module</th>
-      <th>Topic</th>
-      <th width="90">Lessons</th>
-      <th width="100">Level</th>
-      <th width="100">Status</th>
-      <th>Open in Colab</th>
+      <th width="48" align="center">#</th>
+      <th>Module</th>
+      <th width="160">Level</th>
+      <th width="220">Open in Google Colab</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>01</strong></td>
+      <td align="center"><strong>1</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/01_setup_and_fundamentals">Setup and Fundamentals</a></td>
-      <td align="center">2</td>
-      <td align="center">Beginner</td>
-      <td align="center">✅ Available</td>
-      <td align="center">
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/01_setup_and_fundamentals/01_01_introduction_fundamentals.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a><br>
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/01_setup_and_fundamentals/01_02_python_fundamentals.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 2"></a>
+      <td>Beginner</td>
+      <td>
+        Lesson 1 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/01_setup_and_fundamentals/01_01_introduction_fundamentals.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 1 Lesson 1 in Colab"></a><br>
+        Lesson 2 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/01_setup_and_fundamentals/01_02_python_fundamentals.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 1 Lesson 2 in Colab"></a>
       </td>
     </tr>
     <tr>
-      <td align="center"><strong>02</strong></td>
+      <td align="center"><strong>2</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/02_timeseries">Time Series</a></td>
-      <td align="center">1</td>
-      <td align="center">Beginner</td>
-      <td align="center">✅ Available</td>
-      <td align="center">
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/02_timeseries/02_01_TimeSeries_Basics.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+      <td>Beginner</td>
+      <td>
+        Lesson 1 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/02_timeseries/02_01_TimeSeries_Basics.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 2 Lesson 1 in Colab"></a>
       </td>
     </tr>
     <tr>
-      <td align="center"><strong>03</strong></td>
+      <td align="center"><strong>3</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/03_vector-data">Vector Data</a></td>
-      <td align="center">1</td>
-      <td align="center">Beginner</td>
-      <td align="center">✅ Available</td>
-      <td align="center">
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/03_vector-data/03_01_introduction_to_vector_data.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+      <td>Beginner</td>
+      <td>
+        Lesson 1 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/03_vector-data/03_01_introduction_to_vector_data.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 3 Lesson 1 in Colab"></a>
       </td>
     </tr>
     <tr>
-      <td align="center"><strong>04</strong></td>
+      <td align="center"><strong>4</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/04_raster-data">Raster Data</a></td>
-      <td align="center">1</td>
-      <td align="center">Beginner</td>
-      <td align="center">✅ Available</td>
-      <td align="center">
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/04_raster-data/Module4_RasterData.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+      <td>Beginner</td>
+      <td>
+        Lesson 1 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/04_raster-data/Module4_RasterData.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 4 Lesson 1 in Colab"></a>
       </td>
     </tr>
     <tr>
-      <td align="center"><strong>05</strong></td>
+      <td align="center"><strong>5</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/05_stream-data">Stream Data</a></td>
-      <td align="center">1</td>
-      <td align="center">Beginner</td>
-      <td align="center">✅ Available</td>
-      <td align="center">
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/05_stream-data/Module5_USGSDataRetrieval.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+      <td>Beginner</td>
+      <td>
+        Lesson 1 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/05_stream-data/Module5_USGSDataRetrieval.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 5 Lesson 1 in Colab"></a>
       </td>
     </tr>
     <tr>
-      <td align="center"><strong>06</strong></td>
+      <td align="center"><strong>6</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/06_precip-data">Precipitation Data</a></td>
-      <td align="center">1</td>
-      <td align="center">Beginner</td>
-      <td align="center">✅ Available</td>
-      <td align="center">
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/06_precip-data/Module6_PrecipitationData.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+      <td>Beginner</td>
+      <td>
+        Lesson 1 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/06_precip-data/Module6_PrecipitationData.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 6 Lesson 1 in Colab"></a>
       </td>
     </tr>
     <tr>
-      <td align="center"><strong>07</strong></td>
+      <td align="center"><strong>7</strong></td>
       <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/07_soil-data">Soil Data</a></td>
-      <td align="center">2</td>
-      <td align="center">Intermediate</td>
-      <td align="center">✅ Available</td>
-      <td align="center">
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/07_soil-data/07_01_soil_data_ssurgo.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a><br>
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/07_soil-data/07_02_soil_data_gnatsgo.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 2"></a>
+      <td>Intermediate</td>
+      <td>
+        Lesson 1 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/07_soil-data/07_01_soil_data_ssurgo.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 7 Lesson 1 in Colab"></a><br>
+        Lesson 2 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/07_soil-data/07_02_soil_data_gnatsgo.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 7 Lesson 2 in Colab"></a>
       </td>
     </tr>
     <tr>
-      <td align="center"><strong>08</strong></td>
-      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/08_landuse-data">Land Cover & Impervious</a></td>
-      <td align="center">1</td>
-      <td align="center">Intermediate</td>
-      <td align="center">✅ Available</td>
-      <td align="center">
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/08_landuse-data/08_01_land_cover_impervious.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a>
+      <td align="center"><strong>8</strong></td>
+      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/08_landuse-data">Land Cover &amp; Impervious</a></td>
+      <td>Intermediate</td>
+      <td>
+        Lesson 1 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/08_landuse-data/08_01_land_cover_impervious.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 8 Lesson 1 in Colab"></a>
       </td>
     </tr>
     <tr>
-      <td align="center"><strong>09</strong></td>
-      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/09_naip-imagery">NAIP Aerial Imagery & Land Cover Classification</a></td>
-      <td align="center">3 + 1 optional</td>
-      <td align="center">Intermediate/Advanced</td>
-      <td align="center">✅ Available</td>
-      <td align="center">
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_01_find_download_naip.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a><br>
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_02_visualize_compare_naip.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 2"></a><br>
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_03_classify_naip_landcover.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 3"></a><br>
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_04_advanced_watershed_mosaic.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Optional advanced lesson"></a>
+      <td align="center"><strong>9</strong></td>
+      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/09_naip-imagery">NAIP Aerial Imagery &amp; Land Cover Classification</a></td>
+      <td>Intermediate / Advanced</td>
+      <td>
+        Lesson 1 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_01_find_download_naip.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 9 Lesson 1 in Colab"></a><br>
+        Lesson 2 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_02_visualize_compare_naip.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 9 Lesson 2 in Colab"></a><br>
+        Lesson 3 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_03_classify_naip_landcover.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 9 Lesson 3 in Colab"></a><br>
+        Optional &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/09_naip-imagery/09_04_advanced_watershed_mosaic.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 9 Optional Lesson in Colab"></a>
       </td>
     </tr>
     <tr>
       <td align="center"><strong>10</strong></td>
-      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/10_snow-data">Snow Data (UA 800 m & SNODAS)</a></td>
-      <td align="center">3</td>
-      <td align="center">Intermediate</td>
-      <td align="center">✅ Available</td>
-      <td align="center">
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/10_snow-data/10_01_downloading_snow_data.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 1"></a><br>
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/10_snow-data/10_02_ua_snow_analysis_mapping.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 2"></a><br>
-        <a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/10_snow-data/10_03_snodas_snow_analysis_mapping.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Lesson 3"></a>
+      <td><a href="https://github.com/mohsennasab/python-fundamentals-hh/tree/main/notebooks/10_snow-data">Snow Data (UA 800 m &amp; SNODAS)</a></td>
+      <td>Intermediate</td>
+      <td>
+        Lesson 1 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/10_snow-data/10_01_downloading_snow_data.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 10 Lesson 1 in Colab"></a><br>
+        Lesson 2 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/10_snow-data/10_02_ua_snow_analysis_mapping.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 10 Lesson 2 in Colab"></a><br>
+        Lesson 3 &nbsp;<a href="https://colab.research.google.com/github/mohsennasab/python-fundamentals-hh/blob/main/notebooks/10_snow-data/10_03_snodas_snow_analysis_mapping.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Module 10 Lesson 3 in Colab"></a>
       </td>
     </tr>
   </tbody>
 </table>
 
-**Difficulty Levels:**
-
 | Level | Description |
 |-------|-------------|
-| **Beginner** | No prior Python experience needed. Concepts are explained from scratch with H&H analogies. |
+| **Beginner** | No prior Python experience needed. Concepts are explained from scratch with H&amp;H analogies. |
 | **Intermediate** | Assumes comfort with Python basics (variables, loops, functions, pandas). Focuses on applied workflows. |
-| **Advanced** | Assumes working knowledge of Python and H&H modeling tools. Covers automation, optimization, or integration with professional software. |
+| **Advanced** | Assumes working knowledge of Python and H&amp;H modeling tools. Covers automation, optimization, or integration with professional software. |
 
-> More modules and lessons will be added to this course over time!
+More modules and lessons will be added to this course over time.
 
----
+<details>
+<summary>Repository structure</summary>
 
-## What Participants Are Saying
-
-> *"As a complete beginner to Python/Google Colab, the course was approachable and could be completed successfully."*
-
-> *"This is an excellent course for beginners, particularly by highlighting where and how AI can assist."*
-
-> *"The progression through each part, lesson, and module is very clear. The use of structured analogies and AI assistant subheadings is effective."*
-
-> *"This is a strong, discipline-focused introduction to scripting and automation. It also demonstrates practical examples for each data type commonly used."*
-
-> *"Step-by-step examples followed by small exercises are very helpful. The streamflow retrieval exercise is especially useful."*
-
-Participants have also suggested directions for future modules, including GIS software integration (running Python tools inside QGIS), working with HDF5 data formats, and building reusable pipeline templates for probabilistic and simulation-based modeling. These ideas are shaping the roadmap for upcoming content.
-
----
-
-## Repository Structure
-
-```
+```text
 python-fundamentals-hh/
-├── figures/              # Course images and diagrams
+├── figures/              # Course banner and pixel-art logos
 ├── notebooks/            # Interactive Colab notebooks
 │   ├── 01_setup_and_fundamentals/
 │   ├── 02_timeseries/
@@ -223,129 +199,56 @@ python-fundamentals-hh/
 │   ├── 08_landuse-data/
 │   ├── 09_naip-imagery/
 │   └── 10_snow-data/
-├── presentation.html     # Course introduction presentation
-├── .gitignore
+├── DATA_SHARING.md       # Public dataset guidelines for contributors
 └── README.md
 ```
+
+</details>
 
 ---
 
 ## Getting Started
 
-### Video Tutorial
-
-The video below gives an introduction on how to get started with this course:
-
-<p align="center">
-  <a href="https://youtu.be/XCqIm18dVT4">
-    <img src="https://img.youtube.com/vi/XCqIm18dVT4/0.jpg" alt="Getting Started with Python for H&H" width="560">
-  </a>
-</p>
-
-<p align="center">
-  <strong>▶️ <a href="https://youtu.be/XCqIm18dVT4">Getting Started Video</a></strong><br>
-  <em>A short walkthrough on how to use this repository, open notebooks in Google Colab, and follow the course structure.</em>
-</p>
-
-### Quick Start Steps
-
-1. **Download** this repository or work online
-2. **Set up** your Python environment (instructions in Module 01)
-3. **Work through** the notebooks in order
-
----
-
-## Author
-
 <table>
   <tr>
-    <td align="center">
-      <strong>Mohsen Tahmasebi Nasab, PhD</strong><br>
-      <em>Water Resources Engineer</em><br><br>
-      🌐 <a href="https://hydromohsen.com">hydromohsen.com</a><br>
-      📺 <a href="https://www.youtube.com/@HydroMohsen">YouTube Channel</a>
+    <td width="380" align="center" valign="middle">
+      <a href="https://youtu.be/XCqIm18dVT4">
+        <img src="https://img.youtube.com/vi/XCqIm18dVT4/0.jpg" alt="Getting Started with Python for H&amp;H video walkthrough" width="360">
+      </a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://youtu.be/XCqIm18dVT4">Watch the Getting Started Video</a></strong><br>
+      <em>A short walkthrough showing how to use this repository, open notebooks in Google Colab, and follow the course structure.</em>
+      <ol>
+        <li>Open any notebook directly in Google Colab from the module table above, or clone this repository locally.</li>
+        <li>Follow the Python environment setup in Module 1 if you plan to run notebooks on your computer.</li>
+        <li>Work through the notebooks in order.</li>
+      </ol>
     </td>
   </tr>
 </table>
 
-### Support This Course
-
-If you enjoyed this course and found it useful, consider keeping me caffeinated so I can create more content like this!
-
-<p align="center">
-  <a href="https://buymeacoffee.com/HydroMohsen" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="180">
-  </a>
-</p>
-
 ---
 
-## How This Course Was Reviewed
+## What Participants Are Saying
 
-This course has been put together and reviewed both manually and with AI-assisted support tools, including [Claude Code](https://www.anthropic.com/claude-code). The AI was used as a collaborator to help review code, refine explanations, sanity-check workflows, and keep formatting consistent across modules and READMEs. Every change was reviewed by the author before being committed.
+> "As a complete beginner to Python/Google Colab, the course was approachable and could be completed successfully."
 
-Despite that careful review, occasional mistakes or syntax issues may still slip through. The Python ecosystem also changes over time, so an example that works today might need a small tweak tomorrow. If you spot something that isn't quite right, please [open an issue](https://github.com/mohsennasab/python-fundamentals-hh/issues) so it can be fixed and improved for the next learner.
+> "This is an excellent course for beginners, particularly by highlighting where and how AI can assist."
 
-The course also encourages the same approach in students: throughout the modules you'll see 🤖 prompt callouts that invite you to paste code into an AI assistant and ask for explanations, modifications, or help debugging. Using AI thoughtfully alongside your own engineering judgment is part of how this material is meant to be learned.
+> "The progression through each part, lesson, and module is very clear. The use of structured analogies and AI assistant subheadings is effective."
 
----
+> "This is a strong, discipline-focused introduction to scripting and automation. It also demonstrates practical examples for each data type commonly used."
 
-## Contributing
+> "Step-by-step examples followed by small exercises are very helpful. The streamflow retrieval exercise is especially useful."
 
-Contributions are welcome and encouraged! This course grows through community input from practicing engineers and researchers.
-
-### How to Contribute
-
-1. **Open an issue** to propose your lesson idea before writing code
-2. **Fork** the repository and create your lesson in a feature branch
-3. **Submit a pull request** with your completed notebook
-4. After review and acceptance, your module will be published **with your name as the contributor**
-
-### Module Requirements
-
-Every contributed module **must** meet the following criteria to be accepted:
-
-#### Structure
-
-Each notebook must include the following sections at the top:
-
-| Section | What to Include |
-|---------|----------------|
-| **Lesson Level** | One of: Beginner, Intermediate, or Advanced (see definitions above) |
-| **Purpose** | A short paragraph explaining why this lesson exists and where it fits in the course |
-| **Learning Objectives** | A concise bullet list of what learners should be able to do by the end |
-| **Prerequisites** | Reference prior modules or skills assumed (if any) |
-| **AI Prompts** | Include at least 2-3 practical AI prompt examples that help learners understand, debug, or extend the code |
-
-#### Content Standards
-
-- **Use real H&H examples.** Every code example should relate to hydrology, hydraulics, or water resources engineering. No generic programming exercises.
-- **Prefer clarity over cleverness.** Write code that a first-time Python user can follow. If a one-liner is hard to read, break it into multiple lines with comments.
-- **Include sample data.** Provide any data files needed to run the notebook. Place them in a `data/` subfolder within your module directory. Make sure your sample data does not include any information you don't want to share publically. See the [Data Sharing Guidelines](DATA_SHARING.md) for what is and isn't safe to commit.
-- **Test in Google Colab.** All notebooks must run successfully in a fresh Colab session with no local dependencies beyond `pip install`.
-- **Show AI-assisted workflows.** Demonstrate how learners can use AI tools (ChatGPT, Claude, Gemini, Copilot) to understand and extend the code. Include practical prompts they can copy and use.
-- **Keep the tone friendly and human.** Write as if you're explaining to a colleague, not writing a textbook. Avoid overly formal language and excessive emoji.
-
-#### What Makes a Good Module Proposal
-
-Strong proposals typically:
-- Address a workflow that H&H engineers do regularly (e.g., frequency analysis, rating curve development, flood mapping)
-- Build on skills from existing modules without duplicating them
-- Include a real dataset that learners can work with
-- Have a clear "before and after" — show what the manual process looks like and how Python improves it
-
-#### Review Process
-
-1. A maintainer will review your pull request for technical correctness, clarity, and adherence to the standards above
-2. You may receive feedback requesting changes. This is normal and collaborative
-3. Once approved, your module will be merged and your name will appear as a contributor
-4. All accepted contributions are published under the course license (see below)
+Participants have also suggested directions for future modules, including GIS software integration (running Python tools inside QGIS), working with HDF5 data formats, and building reusable pipeline templates for probabilistic and simulation-based modeling. These ideas are shaping the roadmap for upcoming content.
 
 ---
 
 ## More H&H Python Tools to Explore
 
-This course covers the fundamentals. The open-source H&H community has built many other Python tools worth knowing as your work grows. Below are actively maintained projects you can explore once you're comfortable with the material in this course.
+This course covers the fundamentals. The open-source H&amp;H community builds and maintains several libraries that extend well beyond these modules.
 
 | Tool | Description |
 |------|-------------|
@@ -362,37 +265,120 @@ This course covers the fundamentals. The open-source H&H community has built man
 | [hvplot](https://github.com/holoviz/hvplot) | Interactive hydrograph and spatial plots with one-line syntax over pandas and xarray |
 | [noaa_coops](https://github.com/GClunies/noaa_coops) | NOAA CO-OPS tides, currents, and water level data retrieval |
 
-Have a tool you'd recommend? Open an issue or a pull request and we'll add it to the list.
+To recommend another tool, open an issue or submit a pull request.
+
+---
+
+## Author
+
+<table>
+  <tr>
+    <td width="55%" valign="middle">
+      <strong>Mohsen Tahmasebi Nasab, PhD</strong><br>
+      Water Resources Engineer<br><br>
+      <a href="https://hydromohsen.com">hydromohsen.com</a> &middot;
+      <a href="https://hydromohsen.com/python_for_HH/">Course Website</a> &middot;
+      <a href="https://www.youtube.com/@HydroMohsen">YouTube Channel</a>
+    </td>
+    <td width="45%" align="center" valign="middle">
+      Support this course and help keep new modules coming.<br><br>
+      <a href="https://buymeacoffee.com/HydroMohsen">
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="170">
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## How This Course Was Reviewed
+
+This course has been assembled and reviewed manually alongside AI-assisted tools including [Claude Code](https://www.anthropic.com/claude-code) to check code, refine explanations, verify workflows, and keep formatting consistent across modules. Every change is reviewed by the author before publication.
+
+Because Python geospatial libraries update over time, an example that runs cleanly today may need a small adjustment later. If you spot a broken cell or outdated link, please [open an issue](https://github.com/mohsennasab/python-fundamentals-hh/issues) so it can be fixed for the next learner.
+
+AI assistants are also integrated into the learning workflow. Each module includes prompt callouts that invite learners to paste code into an assistant to ask for explanations, modifications, or debugging help while applying their own engineering judgment.
+
+---
+
+## Contributing
+
+Contributions from practicing engineers and researchers are welcome.
+
+1. Open an issue to propose your lesson idea before writing code.
+2. Fork the repository and create your lesson in a feature branch.
+3. Submit a pull request with your completed notebook.
+4. Once reviewed and accepted, your module is published with your name listed as the contributor.
+
+<details>
+<summary>Module requirements, content standards, and review process</summary>
+
+### Module Requirements
+
+#### Notebook Structure
+
+Each notebook includes these five sections at the top.
+
+| Section | What to Include |
+|---------|----------------|
+| **Lesson Level** | Beginner, Intermediate, or Advanced (matching the table above) |
+| **Purpose** | A short paragraph explaining why the lesson exists and where it fits in the course |
+| **Learning Objectives** | A concise bullet list of skills learners gain by the end |
+| **Prerequisites** | Prior modules or Python skills assumed |
+| **AI Prompts** | Two to three practical AI prompts that help learners inspect, debug, or extend the code |
+
+#### Content Standards
+
+| Standard | Expectation |
+|----------|-------------|
+| Real H&amp;H examples | Relate every code example to hydrology, hydraulics, or water resources engineering. |
+| Readable Python | Break compact one-liners into multi-line steps with comments for first-time Python users. |
+| Sample data | Place required sample data in a `data/` subfolder inside your module directory, following the [Data Sharing Guidelines](DATA_SHARING.md) so nothing restricted or private is published publicly. |
+| Google Colab tested | Verify the notebook runs from top to bottom in a fresh Colab session with only `pip install` dependencies. |
+| AI-assisted prompts | Include copyable prompts for ChatGPT, Claude, Gemini, or Copilot showing how to verify and extend workflows. |
+| Human tone | Explain steps plainly as you would to an engineering colleague. |
+
+#### What Makes a Good Module Proposal
+
+- Addresses a recurring H&amp;H workflow such as frequency analysis, rating curves, or flood mapping.
+- Builds on skills from existing modules without duplicating them.
+- Includes a public dataset learners can inspect and plot.
+- Shows a clear "before and after" comparison between the manual workflow and the Python script.
+
+#### Review Process
+
+1. A maintainer reviews your pull request for technical correctness, clarity, and alignment with the standards above.
+2. Feedback or small revisions may be requested during review.
+3. Approved modules are merged with your name listed as the contributor.
+4. Accepted contributions are published under the course license below.
+
+</details>
 
 ---
 
 ## Disclaimer
 
-This course, including its notebooks, code, datasets, examples, and supporting materials, is provided for educational purposes only. The software and data are provided "as is," without warranty of any kind. Always independently verify all inputs, assumptions, calculations, outputs, and interpretations before using them in analysis, modeling, design, regulatory submittals, operational decisions, or other professional applications. These materials are intended to support learning and should not replace engineering judgment, quality control, or project-specific review.
+This course, including its notebooks, code, datasets, and examples, is provided for educational purposes only. The software and data are provided "as is," without warranty of any kind. Always independently verify all inputs, assumptions, calculations, outputs, and interpretations before using them in analysis, modeling, design, regulatory submittals, operational decisions, or other professional applications. These materials are intended to support learning and should not replace engineering judgment, quality control, or project-specific review.
 
 ---
 
 ## License
 
-This project is released under a **custom license for personal educational use**. All rights not expressly granted below are reserved.
+This project is released under a custom license for personal educational use, with all rights not expressly granted reserved.
 
-**Terms at a glance:**
-
-| You may | You may not (without written permission) |
+| You May | You May Not (Without Written Permission) |
 |---|---|
 | Use the materials for your own personal learning and self-study | Redistribute, republish, or mirror the materials |
 | Contribute improvements back to this repository | Teach, present, or use the materials to instruct others, whether free or paid, online or in person |
-| Link others to this repository | Create adapted or derivative versions for distribution |
+| Link others to this repository or course website | Create adapted or derivative versions for distribution |
 | | Sell, license, or monetize the materials, including monetized videos, online courses, and ad-supported tutorials |
 
-In plain terms: this course is free for you to learn from on your own. Using it to teach, present, republish, adapt, or monetize, in any form, requires the author's written permission first.
-
-**Want to teach with it, adapt it, or use it commercially?** Contact the author at [hydromohsen.com](https://hydromohsen.com) for written permission. Permission is often available for non-commercial educational use, but it needs to be arranged in advance.
+This course is free for personal self-study. Any teaching, public presentation, redistribution, adaptation, or commercial use requires prior written permission, which can be requested at [hydromohsen.com](https://hydromohsen.com). Non-commercial educational requests are often approved when arranged in advance.
 
 <details>
 <summary>View Full License</summary>
 
-```
+```text
 License for Personal Educational Use
 
 Copyright (c) 2026 Mohsen Tahmasebi Nasab. All rights reserved.
@@ -449,11 +435,8 @@ OTHER DEALINGS IN THE COURSE MATERIALS.
 
 </details>
 
-
-**In plain English:** This course is free for you to learn from on your own. Teaching with it, presenting it, republishing it, adapting it, or using it commercially (paid workshops, corporate training, monetized videos or online courses, etc.) all require permission first. Just reach out at [hydromohsen.com](https://hydromohsen.com).
-
 ---
 
 <p align="center">
-  <sub>Star this repo if you find it helpful!</sub>
+  <sub>Star this repository if you find it helpful.</sub>
 </p>
